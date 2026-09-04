@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 // Middlewares
 app.use(cors());
@@ -46,17 +46,20 @@ app.get("/", (req, res) => {
 // ==========================================
 
 app.post("/api/mediciones", (req, res) => {
+    console.log("Datos recibidos:", req.body);
+
+    if (!req.body || Object.keys(req.body).length === 0) {
+        return res.status(400).json({
+            error: "No se recibieron datos"
+        });
+    }
 
     mediciones = req.body;
 
-    console.log("Nueva medición recibida:");
-    console.log(mediciones);
-
-    res.json({
-        mensaje: "Medición recibida correctamente",
+    res.status(200).json({
+        mensaje: "Datos recibidos correctamente",
         datos: mediciones
     });
-
 });
 
 
