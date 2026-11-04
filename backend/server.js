@@ -1,3 +1,4 @@
+
 require("dotenv").config();
 
 const express = require("express");
@@ -8,7 +9,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // ==========================================
-// CONEXIÓN A POSTGRESQL (RENDER)
+// CONEXION A POSTGRESQL (RENDER)
 // ==========================================
 
 const pool = new Pool({
@@ -33,16 +34,12 @@ async function crearTabla() {
     await pool.query(`
         CREATE TABLE IF NOT EXISTS mediciones (
             id SERIAL PRIMARY KEY,
-            voltage_real_entrada DOUBLE PRECISION,
-            voltage_bus_entrada DOUBLE PRECISION,
-            voltage_shunt_entrada DOUBLE PRECISION,
-            corriente_entrada DOUBLE PRECISION,
-            potencia_entrada DOUBLE PRECISION,
-            voltage_real_salida DOUBLE PRECISION,
-            voltage_bus_salida DOUBLE PRECISION,
-            voltage_shunt_salida DOUBLE PRECISION,
-            corriente_salida DOUBLE PRECISION,
-            potencia_salida DOUBLE PRECISION,
+            voltage_e DOUBLE PRECISION,
+            corriente_e DOUBLE PRECISION,
+            potencia_e DOUBLE PRECISION,
+            voltage_s DOUBLE PRECISION,
+            corriente_s DOUBLE PRECISION,
+            potencia_s DOUBLE PRECISION,
             fecha TIMESTAMP DEFAULT CURRENT_TIMESTAMP
         );
     `);
@@ -65,43 +62,35 @@ app.get("/", (req, res) => {
 // ==========================================
 
 app.post("/api/mediciones", async (req, res) => {
-
     try {
         console.log("Datos recibidos:", req.body);
 
-        if (!req.body || Object.keys(req.body).length === 0) {
-            return res.status(400).json({
-                error: "No se recibieron datos"
-            });
-        }
-
-        const m = req.body;
+        const {
+            voltage_e,
+            corriente_e,
+            potencia_e,
+            voltage_s,
+            corriente_s,
+            potencia_s
+        } = req.body;
 
         await pool.query(`
             INSERT INTO mediciones (
-                voltage_real_entrada,
-                voltage_bus_entrada,
-                voltage_shunt_entrada,
-                corriente_entrada,
-                potencia_entrada,
-                voltage_real_salida,
-                voltage_bus_salida,
-                voltage_shunt_salida,
-                corriente_salida,
-                potencia_salida
+                voltage_e,
+                corriente_e,
+                potencia_e,
+                voltage_s,
+                corriente_s,
+                potencia_s
             )
-            VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10)
+            VALUES ($1, $2, $3, $4, $5, $6)
         `, [
-            m.voltage_real_entrada ?? 0,
-            m.voltage_bus_entrada ?? 0,
-            m.voltage_shunt_entrada ?? 0,
-            m.corriente_entrada ?? 0,
-            m.potencia_entrada ?? 0,
-            m.voltage_real_salida ?? 0,
-            m.voltage_bus_salida ?? 0,
-            m.voltage_shunt_salida ?? 0,
-            m.corriente_salida ?? 0,
-            m.potencia_salida ?? 0
+            voltage_e,
+            corriente_e,
+            potencia_e,
+            voltage_s,
+            corriente_s,
+            potencia_s
         ]);
 
         res.status(200).json({
@@ -118,11 +107,10 @@ app.post("/api/mediciones", async (req, res) => {
 });
 
 // ==========================================
-// OBTENER ÚLTIMA MEDICIÓN
+// OBTENER ULTIMA MEDICION
 // ==========================================
 
 app.get("/api/mediciones", async (req, res) => {
-
     try {
         const resultado = await pool.query(`
             SELECT * FROM mediciones
@@ -149,8 +137,8 @@ async function iniciarServidor() {
     try {
         await crearTabla();
 
-        app.listen(PORT, () => {
-            console.log(`Servidor ejecutándose en http://localhost:${PORT}`);
+        app.listen(PORT, "0.0.0.0", () => {
+            console.log(`Servidor ejecutándose en puerto ${PORT}`);
             console.log("Conectado a PostgreSQL");
         });
 
