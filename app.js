@@ -1,62 +1,84 @@
+
 // ==========================================
-// DATOS SIMULADOS DEL ESP32
+// CONFIGURACIÓN DE LA API
 // ==========================================
 
-function generarDatos() {
+const API_URL = "https://dashboard-rjuc.onrender.com/api/mediciones";
 
-    // Datos de entrada
-    const voltajeEntrada = (12 + Math.random() * 2).toFixed(2);
-    const corrienteEntrada = (500 + Math.random() * 300).toFixed(2);
+// ==========================================
+// CONSULTAR MEDICIONES
+// ==========================================
 
-    const potenciaEntrada =
-        (voltajeEntrada * corrienteEntrada).toFixed(2);
+async function obtenerMediciones() {
 
+    const estado = document.getElementById("estadoConexion");
 
-    // Datos de salida
-    const voltajeSalida = (5 + Math.random() * 1).toFixed(2);
-    const corrienteSalida = (300 + Math.random() * 200).toFixed(2);
+    try {
 
-    const potenciaSalida =
-        (voltajeSalida * corrienteSalida).toFixed(2);
+        const respuesta = await fetch(API_URL);
 
+        if (!respuesta.ok) {
+            throw new Error("Error al consultar la API");
+        }
 
-    // ==========================================
-    // MOSTRAR DATOS EN EL DASHBOARD
-    // ==========================================
+        const datos = await respuesta.json();
 
-    document.getElementById("voltajeEntrada").textContent =
-        `${voltajeEntrada} V`;
+        // Comprobar si existen mediciones
+        if (!datos || !datos.id) {
+            estado.textContent = "Esperando mediciones del ESP32";
+            return;
+        }
 
-    document.getElementById("corrienteEntrada").textContent =
-        `${corrienteEntrada} mA`;
+        // ==========================================
+        // DATOS DE ENTRADA
+        // ==========================================
 
-    document.getElementById("potenciaEntrada").textContent =
-        `${potenciaEntrada} mW`;
+        document.getElementById("voltajeEntrada").textContent =
+            `${Number(datos.voltage_real_entrada).toFixed(2)} V`;
 
+        document.getElementById("corrienteEntrada").textContent =
+            `${Number(datos.corriente_entrada).toFixed(2)} mA`;
 
-    document.getElementById("voltajeSalida").textContent =
-        `${voltajeSalida} V`;
+        document.getElementById("potenciaEntrada").textContent =
+            `${Number(datos.potencia_entrada).toFixed(2)} mW`;
 
-    document.getElementById("corrienteSalida").textContent =
-        `${corrienteSalida} mA`;
+        // ==========================================
+        // DATOS DE SALIDA
+        // ==========================================
 
-    document.getElementById("potenciaSalida").textContent =
-        `${potenciaSalida} mW`;
+        document.getElementById("voltajeSalida").textContent =
+            `${Number(datos.voltage_real_salida).toFixed(2)} V`;
 
+        document.getElementById("corrienteSalida").textContent =
+            `${Number(datos.corriente_salida).toFixed(2)} mA`;
 
-    // ==========================================
-    // ESTADO DE CONEXIÓN
-    // ==========================================
+        document.getElementById("potenciaSalida").textContent =
+            `${Number(datos.potencia_salida).toFixed(2)} mW`;
 
-    document.getElementById("estadoConexion").textContent =
-        "ESP32 conectado";
+        // ==========================================
+        // ESTADO DE CONEXIÓN
+        // ==========================================
+
+        estado.textContent = "API conectada · Mediciones recibidas";
+
+        console.log("Mediciones actualizadas:", datos);
+
+    } catch (error) {
+
+        console.error("Error obteniendo mediciones:", error);
+
+        estado.textContent = "Error de conexión con la API";
+
+    }
 
 }
 
+// ==========================================
+// ACTUALIZACIÓN AUTOMÁTICA
+// ==========================================
 
-// Ejecutar inmediatamente
-generarDatos();
+// Primera consulta
+obtenerMediciones();
 
-
-// Actualizar cada 2 segundos
-setInterval(generarDatos, 2000);
+// Consultar cada 2 segundos
+setInterval(obtenerMediciones, 2000);

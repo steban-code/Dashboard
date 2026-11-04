@@ -3,93 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penitenciaría San Serrato | Monitor de energía</title>
 
-    <title>Dashboard ESP32</title>
-
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style2.css">
+   
 </head>
 
 <body>
 
     <header class="header">
-        <h1>Dashboard de Monitoreo</h1>
-        <p>ESP32 + Sensores INA219</p>
+        <h1>Penitenciaría San Serrato</h1>
+        <p>Sistema de monitoreo energético</p>
     </header>
 
-    <main class="dashboard">
+    <main class="inicio">
 
-        <!-- SENSOR DE ENTRADA -->
-        <section class="sensor">
+        <section class="presentacion">
+            <span class="etiqueta">Proyecto ESP32 + INA219</span>
 
-            <h2>Entrada</h2>
+            <h2>Monitoreo y control energético</h2>
 
-            <div class="cards">
-
-                <div class="card">
-                    <h3>Voltaje</h3>
-                    <p id="voltajeEntrada">0.00 V</p>
-                </div>
-
-                <div class="card">
-                    <h3>Corriente</h3>
-                    <p id="corrienteEntrada">0.00 mA</p>
-                </div>
-
-                <div class="card">
-                    <h3>Potencia</h3>
-                    <p id="potenciaEntrada">0.00 mW</p>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- SENSOR DE SALIDA -->
-        <section class="sensor">
-
-            <h2>Salida</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    <h3>Voltaje</h3>
-                    <p id="voltajeSalida">0.00 V</p>
-                </div>
-
-                <div class="card">
-                    <h3>Corriente</h3>
-                    <p id="corrienteSalida">0.00 mA</p>
-                </div>
-
-                <div class="card">
-                    <h3>Potencia</h3>
-                    <p id="potenciaSalida">0.00 mW</p>
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ESTADO -->
-        <section class="estado">
-
-            <h2>Estado del sistema</h2>
-
-            <p id="estadoConexion">
-                ESP32 desconectado
+            <p>
+                Plataforma de supervisión que permite visualizar y
+                almacenar las variables eléctricas de entrada y salida
+                de la penitenciaría, mediante sensores INA219, un
+                microcontrolador ESP32 y una API conectada a una base
+                de datos PostgreSQL.
             </p>
+        </section>
 
+        <section class="opciones">
+
+            <a href="http://localhost:3000/" target="_blank" rel="noopener" class="opcion">
+                <div class="icono">⚙️</div>
+                <h3>Conexión API</h3>
+                <p>
+                    Accede al servicio backend y consulta
+                    el estado de funcionamiento de la API.
+                </p>
+                <span>Consultar API →</span>
+            </a>
+
+            <a href="mediciones" target="_blank" rel="noopener" class="opcion">
+                <div class="icono">📊</div>
+                <h3>Mediciones</h3>
+                <p>
+                    Consulta las mediciones de voltaje, corriente
+                    y potencia registradas en la base de datos.
+                </p>
+                <span>Ver mediciones →</span>
+            </a>
+
+        </section>
+
+        <section class="informacion">
+            <h3>Arquitectura del proyecto</h3>
+
+            <div class="arquitectura">
+                <div>ESP32</div>
+                <span>→</span>
+                <div>API Node.js</div>
+                <span>→</span>
+                <div>PostgreSQL</div>
+            </div>
         </section>
 
     </main>
 
     <footer>
-        <p>Proyecto de monitoreo energético</p>
+        <p>Penitenciaría San Serrato | Monitoreo energético con ESP32 + INA219</p>
     </footer>
-
-    <script src="app.js"></script>
 
 </body>
 </html>
