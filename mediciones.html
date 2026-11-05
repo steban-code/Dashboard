@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -6,90 +5,246 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Dashboard ESP32</title>
+    <title>Mediciones | Penitenciaría San Serrato</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style2.css">
+
+    <style>
+        .estado {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 14px;
+            margin-bottom: 36px;
+            color: var(--ceniza);
+            font-size: 0.95rem;
+        }
+
+        .luz {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: var(--ceniza);
+        }
+
+        .luz.en-linea { background: var(--sangre-viva); box-shadow: 0 0 10px var(--sangre-viva); }
+
+        .volver { margin-left: auto; color: var(--hueso); }
+
+        .grupo { margin-bottom: 44px; }
+
+        .grupo h3 {
+            font-family: "Bebas Neue", Impact, sans-serif;
+            font-weight: 400;
+            font-size: 1.8rem;
+            letter-spacing: 0.04em;
+            margin-bottom: 14px;
+        }
+
+        .tarjetas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .tarjeta {
+            padding: 22px;
+            background: var(--panel);
+            border: 1px solid var(--borde);
+            border-left: 4px solid var(--sangre);
+        }
+
+        .tarjeta .nombre { color: var(--ceniza); font-size: 0.9rem; }
+
+        .tarjeta .valor {
+            margin-top: 6px;
+            font-family: "Bebas Neue", Impact, sans-serif;
+            font-size: 2.6rem;
+            line-height: 1;
+            letter-spacing: 0.03em;
+        }
+
+        .tarjeta .unidad { color: var(--sangre-viva); font-size: 1rem; margin-left: 6px; }
+
+        .tabla-caja { overflow-x: auto; border: 1px solid var(--borde); background: var(--panel); }
+
+        table { width: 100%; border-collapse: collapse; min-width: 640px; font-size: 0.92rem; }
+
+        th, td { padding: 10px 14px; text-align: right; border-bottom: 1px solid var(--borde); }
+
+        th { color: var(--ceniza); font-weight: 500; }
+
+        th:first-child, td:first-child { text-align: left; }
+
+        .vacio { padding: 24px; color: var(--ceniza); }
+    </style>
 </head>
 
 <body>
 
     <header class="header">
-        <h1>Dashboard de Monitoreo</h1>
-        <p>ESP32 + Sensores INA219</p>
+        <h1>Mediciones</h1>
+        <p>Penitenciaría San Serrato</p>
     </header>
 
-    <main class="dashboard">
+    <main>
 
-        <!-- SENSOR DE ENTRADA -->
-        <section class="sensor">
+        <div class="estado">
+            <span class="luz" id="luz"></span>
+            <span id="texto-estado">Conectando con la API…</span>
+            <a class="volver" href="index.html">← Volver al inicio</a>
+        </div>
 
-            <h2>Entrada</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    <h3>Voltaje</h3>
-                    <p id="voltajeEntrada">0.00 V</p>
-                </div>
-
-                <div class="card">
-                    <h3>Corriente</h3>
-                    <p id="corrienteEntrada">0.00 mA</p>
-                </div>
-
-                <div class="card">
-                    <h3>Potencia</h3>
-                    <p id="potenciaEntrada">0.00 mW</p>
-                </div>
-
+        <section class="grupo">
+            <h3>Entrada</h3>
+            <div class="tarjetas">
+                <div class="tarjeta"><div class="nombre">Voltaje</div><div class="valor"><span id="voltage_e">--</span><span class="unidad">V</span></div></div>
+                <div class="tarjeta"><div class="nombre">Corriente</div><div class="valor"><span id="corriente_e">--</span><span class="unidad u-corriente"></span></div></div>
+                <div class="tarjeta"><div class="nombre">Potencia</div><div class="valor"><span id="potencia_e">--</span><span class="unidad u-potencia"></span></div></div>
             </div>
-
         </section>
 
-        <!-- SENSOR DE SALIDA -->
-        <section class="sensor">
-
-            <h2>Salida</h2>
-
-            <div class="cards">
-
-                <div class="card">
-                    <h3>Voltaje</h3>
-                    <p id="voltajeSalida">0.00 V</p>
-                </div>
-
-                <div class="card">
-                    <h3>Corriente</h3>
-                    <p id="corrienteSalida">0.00 mA</p>
-                </div>
-
-                <div class="card">
-                    <h3>Potencia</h3>
-                    <p id="potenciaSalida">0.00 mW</p>
-                </div>
-
+        <section class="grupo">
+            <h3>Salida</h3>
+            <div class="tarjetas">
+                <div class="tarjeta"><div class="nombre">Voltaje</div><div class="valor"><span id="voltage_s">--</span><span class="unidad">V</span></div></div>
+                <div class="tarjeta"><div class="nombre">Corriente</div><div class="valor"><span id="corriente_s">--</span><span class="unidad u-corriente"></span></div></div>
+                <div class="tarjeta"><div class="nombre">Potencia</div><div class="valor"><span id="potencia_s">--</span><span class="unidad u-potencia"></span></div></div>
+                <div class="tarjeta"><div class="nombre">Eficiencia</div><div class="valor"><span id="eficiencia">--</span><span class="unidad">%</span></div></div>
             </div>
-
         </section>
 
-        <!-- ESTADO DEL SISTEMA -->
-        <section class="estado">
-
-            <h2>Estado del sistema</h2>
-
-            <p id="estadoConexion">
-                ESP32 desconectado
-            </p>
-
+        <section class="grupo">
+            <h3>Últimas lecturas</h3>
+            <div class="tabla-caja">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fecha</th>
+                            <th>V entrada</th>
+                            <th>I entrada</th>
+                            <th>P entrada</th>
+                            <th>V salida</th>
+                            <th>I salida</th>
+                            <th>P salida</th>
+                        </tr>
+                    </thead>
+                    <tbody id="historial"></tbody>
+                </table>
+                <p class="vacio" id="vacio">Esperando la primera medición…</p>
+            </div>
         </section>
 
     </main>
 
     <footer>
-        <p>Proyecto de monitoreo energético</p>
+        <p>Penitenciaría San Serrato | Monitoreo energético con ESP32 + INA219</p>
     </footer>
 
-    <script src="app.js"></script>
+    <script>
+        // ---- CONFIGURACIÓN ----
+        const API_URL = "https://dashboard-rjuc.onrender.com/api/mediciones";
+        const INTERVALO_MS = 5000;   // cada cuánto se consulta la API
+        const MAX_FILAS = 20;        // lecturas que se muestran en la tabla
+        const UNIDAD_CORRIENTE = "mA";  // cámbiala a "A" si el ESP32 envía amperios
+        const UNIDAD_POTENCIA = "mW";   // cámbiala a "W" si el ESP32 envía vatios
+
+        // ---- ELEMENTOS ----
+        const luz = document.getElementById("luz");
+        const textoEstado = document.getElementById("texto-estado");
+        const historial = document.getElementById("historial");
+        const vacio = document.getElementById("vacio");
+        const campos = ["voltage_e", "corriente_e", "potencia_e", "voltage_s", "corriente_s", "potencia_s"];
+
+        document.querySelectorAll(".u-corriente").forEach(e => e.textContent = UNIDAD_CORRIENTE);
+        document.querySelectorAll(".u-potencia").forEach(e => e.textContent = UNIDAD_POTENCIA);
+
+        let ultimoId = null;
+
+        function formato(n) {
+            return Number(n).toLocaleString("es-CO", { maximumFractionDigits: 2 });
+        }
+
+        function formatoFecha(texto) {
+            const d = new Date(texto);
+            return isNaN(d) ? "--" : d.toLocaleString("es-CO");
+        }
+
+        function mostrarActual(m) {
+            campos.forEach(c => {
+                document.getElementById(c).textContent = formato(m[c]);
+            });
+
+            const pe = Number(m.potencia_e);
+            const ps = Number(m.potencia_s);
+            document.getElementById("eficiencia").textContent =
+                pe > 0 ? formato((ps / pe) * 100) : "--";
+        }
+
+        function agregarFila(m) {
+            const fila = document.createElement("tr");
+            const celdas = [
+                formatoFecha(m.fecha),
+                formato(m.voltage_e) + " V",
+                formato(m.corriente_e) + " " + UNIDAD_CORRIENTE,
+                formato(m.potencia_e) + " " + UNIDAD_POTENCIA,
+                formato(m.voltage_s) + " V",
+                formato(m.corriente_s) + " " + UNIDAD_CORRIENTE,
+                formato(m.potencia_s) + " " + UNIDAD_POTENCIA
+            ];
+
+            celdas.forEach(texto => {
+                const td = document.createElement("td");
+                td.textContent = texto;
+                fila.appendChild(td);
+            });
+
+            historial.prepend(fila);
+            while (historial.children.length > MAX_FILAS) {
+                historial.lastChild.remove();
+            }
+            vacio.style.display = "none";
+        }
+
+        function marcarEstado(enLinea, mensaje) {
+            luz.classList.toggle("en-linea", enLinea);
+            textoEstado.textContent = mensaje;
+        }
+
+        async function consultar() {
+            try {
+                const respuesta = await fetch(API_URL, { cache: "no-store" });
+                if (!respuesta.ok) throw new Error("HTTP " + respuesta.status);
+
+                const medicion = await respuesta.json();
+
+                if (!medicion || medicion.id === undefined) {
+                    marcarEstado(true, "API conectada, todavía no hay mediciones guardadas.");
+                    return;
+                }
+
+                mostrarActual(medicion);
+
+                // La API solo devuelve la última medición: se guarda en la tabla si es nueva
+                if (medicion.id !== ultimoId) {
+                    ultimoId = medicion.id;
+                    agregarFila(medicion);
+                }
+
+                marcarEstado(true, "En línea · última medición: " + formatoFecha(medicion.fecha));
+
+            } catch (error) {
+                marcarEstado(false, "Sin conexión con la API. Reintentando…");
+            }
+        }
+
+        consultar();
+        setInterval(consultar, INTERVALO_MS);
+    </script>
 
 </body>
 </html>
