@@ -1,18 +1,14 @@
-
 :root {
-    --negro: #050505;
-    --panel: #101112;
-    --borde: #2a2c2e;
-    --hueso: #e8e4da;
-    --acero: #8d949b;
-    --alerta: #e0a526;
+    --negro: #040404;
+    --panel: #0d0b0b;
+    --borde: #2a1717;
+    --hueso: #d9d3c5;
+    --ceniza: #7d776e;
+    --sangre: #8f0f0f;
+    --sangre-viva: #d11a1a;
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
     background: var(--negro);
@@ -24,162 +20,259 @@ body {
     flex-direction: column;
 }
 
-/* Cabecera: barrotes de celda */
+/* Grano de película + viñeta oscura sobre toda la página */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    pointer-events: none;
+    opacity: 0.12;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/></filter><rect width='200' height='200' filter='url(%23n)'/></svg>");
+}
 
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 49;
+    pointer-events: none;
+    background: radial-gradient(ellipse at center, transparent 45%, rgba(0, 0, 0, 0.85) 100%);
+}
+
+/* ---------- Cabecera ---------- */
 .header {
     position: relative;
-    padding: 56px 24px 48px;
+    padding: 64px 24px 80px;
     text-align: center;
-    border-bottom: 1px solid var(--borde);
-
     background:
-        repeating-linear-gradient(
-            90deg,
-            transparent 0 46px,
-            #17181a 46px 50px
-        ),
+        radial-gradient(ellipse at 50% 0%, rgba(143, 15, 15, 0.35), transparent 65%),
+        repeating-linear-gradient(90deg, transparent 0 46px, #1a1313 46px 51px),
         var(--negro);
 }
 
+/* Borde de sangre con goteos */
 .header::after {
     content: "";
     position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 8px;
-
-    background: repeating-linear-gradient(
-        -45deg,
-        var(--alerta) 0 14px,
-        var(--negro) 14px 28px
-    );
+    left: 0; right: 0; bottom: 0;
+    height: 44px;
+    background:
+        linear-gradient(var(--sangre), var(--sangre)) 8% 0 / 7px 30px no-repeat,
+        linear-gradient(var(--sangre), var(--sangre)) 23% 0 / 5px 44px no-repeat,
+        linear-gradient(var(--sangre), var(--sangre)) 47% 0 / 8px 22px no-repeat,
+        linear-gradient(var(--sangre), var(--sangre)) 66% 0 / 5px 38px no-repeat,
+        linear-gradient(var(--sangre), var(--sangre)) 86% 0 / 7px 26px no-repeat,
+        linear-gradient(var(--sangre), var(--sangre)) 0 0 / 100% 8px no-repeat;
 }
 
 .header h1 {
-    font-family: "Bebas Neue", Impact, sans-serif;
+    font-family: "Creepster", "Bebas Neue", Impact, sans-serif;
     font-weight: 400;
-    font-size: clamp(3rem, 10vw, 6.5rem);
-    line-height: 0.95;
-    letter-spacing: 0.04em;
-    text-shadow: 0 4px 0 var(--negro);
+    font-size: clamp(2.8rem, 9vw, 6rem);
+    line-height: 1;
+    letter-spacing: 0.05em;
+    color: var(--hueso);
+    text-shadow: 0 0 18px rgba(209, 26, 26, 0.55), 0 3px 0 #000;
+    animation: parpadeo 7s infinite;
 }
 
 .header p {
-    margin-top: 14px;
-    color: var(--acero);
+    margin-top: 16px;
+    color: var(--ceniza);
     font-size: 1.05rem;
+    font-style: italic;
 }
 
-/* Contenedor principal */
+/* Único movimiento automático: la luz del título falla de vez en cuando */
+@keyframes parpadeo {
+    0%, 17%, 19%, 22%, 60%, 63%, 100% { opacity: 1; }
+    18%, 21%, 61% { opacity: 0.25; }
+    20% { opacity: 0.8; }
+    62% { opacity: 0.4; }
+}
 
+/* ---------- Contenido ---------- */
 main {
     flex: 1;
     width: 100%;
     max-width: 1040px;
     margin: 0 auto;
-    padding: 56px 24px;
+    padding: 64px 24px;
 }
 
-/* Presentación */
-
-.presentacion {
-    max-width: 680px;
-}
+.presentacion { max-width: 700px; }
 
 .etiqueta {
     display: inline-block;
     padding: 4px 12px;
-    border: 1px solid var(--alerta);
-    color: var(--alerta);
+    border: 1px solid var(--sangre-viva);
+    color: var(--sangre-viva);
     font-size: 0.85rem;
     font-weight: 500;
 }
 
-.presentacion h2 {
-    margin: 20px 0 14px;
+h2, h3.titulo, .informacion h3, .proceso h3 {
     font-family: "Bebas Neue", Impact, sans-serif;
     font-weight: 400;
-    font-size: clamp(2rem, 5vw, 3rem);
-    letter-spacing: 0.03em;
+    letter-spacing: 0.04em;
 }
 
-.presentacion p {
-    color: #b9b5ab;
+.presentacion h2 {
+    margin: 20px 0 14px;
+    font-size: clamp(2.2rem, 5vw, 3.2rem);
 }
 
-/* Tarjetas de opciones */
+.presentacion p { color: #b3ada1; margin-bottom: 14px; }
 
+.presentacion p strong { color: var(--hueso); font-weight: 600; }
+
+/* ---------- Carrusel del proceso ---------- */
+.proceso { margin-top: 64px; }
+
+.proceso h3 { font-size: 2rem; }
+
+.proceso > p { color: var(--ceniza); margin: 4px 0 20px; }
+
+.carrusel {
+    position: relative;
+    overflow: hidden;
+    background: var(--panel);
+    border: 1px solid var(--borde);
+}
+
+.pista {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.diapositiva {
+    flex: 0 0 100%;
+    margin: 0;
+}
+
+.marco {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: #070505;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+/* Texto que se ve mientras no exista la imagen */
+.marco::before {
+    content: "Falta la imagen: " attr(data-img);
+    color: var(--ceniza);
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.marco img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(0.5) contrast(1.1) brightness(0.8);
+}
+
+.diapositiva figcaption {
+    padding: 18px 24px 22px 24px;
+    border-top: 2px solid var(--sangre);
+}
+
+.diapositiva figcaption strong {
+    display: block;
+    font-family: "Bebas Neue", Impact, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 0.04em;
+}
+
+.diapositiva figcaption span { color: #aaa497; font-size: 0.95rem; }
+
+.flecha {
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+    width: 46px;
+    height: 56px;
+    border: 1px solid var(--borde);
+    background: rgba(4, 4, 4, 0.8);
+    color: var(--hueso);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.flecha:hover { background: var(--sangre); }
+
+.flecha:focus-visible,
+.punto:focus-visible,
+.opcion:focus-visible { outline: 2px solid var(--sangre-viva); outline-offset: 3px; }
+
+.flecha.anterior { left: 0; }
+.flecha.siguiente { right: 0; }
+
+.puntos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 0 0 18px;
+}
+
+.punto {
+    width: 12px;
+    height: 12px;
+    border: 1px solid var(--ceniza);
+    background: transparent;
+    cursor: pointer;
+}
+
+.punto.activo { background: var(--sangre-viva); border-color: var(--sangre-viva); }
+
+/* ---------- Enlaces ---------- */
 .opciones {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 20px;
-    margin-top: 48px;
+    margin-top: 64px;
 }
 
 .opcion {
     display: block;
-    min-width: 0;
     padding: 28px;
     background: var(--panel);
     border: 1px solid var(--borde);
-    border-left: 4px solid var(--acero);
+    border-left: 4px solid var(--sangre);
     color: inherit;
     text-decoration: none;
-
-    transition:
-        border-color 0.2s,
-        background 0.2s,
-        transform 0.2s;
+    transition: border-color 0.2s, background 0.2s;
 }
 
 .opcion:hover {
-    border-left-color: var(--alerta);
-    background: #161718;
-    transform: translateY(-3px);
+    background: #170b0b;
+    border-left-color: var(--sangre-viva);
 }
 
-.opcion:focus-visible {
-    border-left-color: var(--alerta);
-    outline: 2px solid var(--alerta);
-    outline-offset: 3px;
-}
+.icono { font-size: 1.8rem; margin-bottom: 12px; }
 
-.icono {
-    font-size: 1.8rem;
-    margin-bottom: 12px;
-}
+.opcion h3 { font-size: 1.2rem; margin-bottom: 8px; }
 
-.opcion h3 {
-    font-size: 1.2rem;
-    margin-bottom: 8px;
-}
-
-.opcion p {
-    color: var(--acero);
-    font-size: 0.95rem;
-}
+.opcion p { color: var(--ceniza); font-size: 0.95rem; }
 
 .opcion span {
     display: inline-block;
     margin-top: 18px;
-    color: var(--alerta);
+    color: var(--sangre-viva);
     font-weight: 600;
 }
 
-/* Arquitectura */
+/* ---------- Arquitectura ---------- */
+.informacion { margin-top: 64px; }
 
-.informacion {
-    margin-top: 56px;
-}
-
-.informacion h3 {
-    font-family: "Bebas Neue", Impact, sans-serif;
-    font-weight: 400;
-    font-size: 1.7rem;
-    letter-spacing: 0.04em;
-    margin-bottom: 20px;
-}
+.informacion h3 { font-size: 1.8rem; margin-bottom: 20px; }
 
 .arquitectura {
     display: flex;
@@ -195,58 +288,23 @@ main {
     font-weight: 600;
 }
 
-.arquitectura span {
-    color: var(--alerta);
-    font-size: 1.4rem;
-}
-
-/* Pie de página */
+.arquitectura span { color: var(--sangre-viva); font-size: 1.4rem; }
 
 footer {
-    padding: 24px;
+    padding: 28px 24px;
     text-align: center;
-    color: var(--acero);
+    color: var(--ceniza);
     font-size: 0.9rem;
     border-top: 1px solid var(--borde);
 }
 
-/* Adaptación para móviles */
-
 @media (max-width: 520px) {
+    .arquitectura { flex-direction: column; align-items: stretch; text-align: center; }
+    .arquitectura span { transform: rotate(90deg); }
+    .flecha { width: 38px; height: 46px; }
+}
 
-    .header {
-        padding: 42px 16px 38px;
-    }
-
-    main {
-        padding: 36px 18px;
-    }
-
-    .opciones {
-        grid-template-columns: 1fr;
-        margin-top: 32px;
-    }
-
-    .opcion {
-        padding: 22px;
-    }
-
-    .informacion {
-        margin-top: 40px;
-    }
-
-    .arquitectura {
-        flex-direction: column;
-        align-items: stretch;
-        text-align: center;
-        gap: 10px;
-    }
-
-    .arquitectura span {
-        transform: rotate(90deg);
-    }
-
-    footer {
-        padding: 20px 14px;
-    }
+@media (prefers-reduced-motion: reduce) {
+    .header h1 { animation: none; }
+    .pista { transition: none; }
 }

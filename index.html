@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 
@@ -11,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="style2.css">
 </head>
@@ -20,24 +19,99 @@
 
     <header class="header">
         <h1>Penitenciaría San Serrato</h1>
-        <p>Sistema de monitoreo energético</p>
+        <p>Aquí las celdas se mueven solas</p>
     </header>
 
     <main class="inicio">
 
         <section class="presentacion">
 
-            <span class="etiqueta">Proyecto ESP32 + INA219</span>
+            <span class="etiqueta">Proyecto ESP32 + INA219 + Servomotores</span>
 
             <h2>Monitoreo y control energético</h2>
 
             <p>
-                Plataforma de supervisión que permite visualizar y
-                almacenar las variables eléctricas de entrada y salida
-                de la penitenciaría, mediante sensores INA219, un
-                microcontrolador ESP32 y una API conectada a una base
-                de datos PostgreSQL.
+                <strong>San Serrato</strong> es una maqueta de cárcel cuyas
+                celdas se abren, se cierran y se desplazan mediante
+                servomotores controlados por un ESP32.
             </p>
+
+            <p>
+                Los sensores INA219 miden las variables eléctricas de entrada
+                y salida, y una API las guarda en una base de datos
+                PostgreSQL para poder supervisarlas desde esta plataforma.
+            </p>
+
+        </section>
+
+        <!-- CARRUSEL DEL PROCESO -->
+        <section class="proceso">
+
+            <h3>Proceso de construcción</h3>
+            <p>Del diseño de la maqueta a las celdas en movimiento.</p>
+
+            <div class="carrusel" role="region" aria-roledescription="carrusel" aria-label="Proceso de construcción">
+
+                <div class="pista" id="pista">
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso1.jpg">
+                            <img src="img/paso1.jpg" alt="Diseño de la maqueta" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>1. Diseño de la maqueta</strong>
+                            <span>Planos del pabellón, el pasillo y la ubicación de cada celda.</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso2.jpg">
+                            <img src="img/paso2.jpg" alt="Estructura de las celdas" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>2. Estructura de las celdas</strong>
+                            <span>Armado de las celdas, las rejas y las puertas móviles.</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso3.jpg">
+                            <img src="img/paso3.jpg" alt="Instalación de servomotores" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>3. Instalación de servomotores</strong>
+                            <span>Cada servo se fija a una celda para abrirla y cerrarla.</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso4.jpg">
+                            <img src="img/paso4.jpg" alt="Circuito con ESP32 e INA219" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>4. Circuito con ESP32 e INA219</strong>
+                            <span>Conexión del microcontrolador, los servos y los sensores de energía.</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso5.jpg">
+                            <img src="img/paso5.jpg" alt="Pruebas y monitoreo" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>5. Pruebas y monitoreo</strong>
+                            <span>Las mediciones llegan a la API y se guardan en PostgreSQL.</span>
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+                <button class="flecha anterior" id="anterior" aria-label="Paso anterior">‹</button>
+                <button class="flecha siguiente" id="siguiente" aria-label="Paso siguiente">›</button>
+
+            </div>
+
+            <div class="puntos" id="puntos"></div>
 
         </section>
 
@@ -104,6 +178,40 @@
             Penitenciaría San Serrato | Monitoreo energético con ESP32 + INA219
         </p>
     </footer>
+
+    <script>
+        // Carrusel del proceso
+        const pista = document.getElementById("pista");
+        const total = pista.children.length;
+        const contenedorPuntos = document.getElementById("puntos");
+        let actual = 0;
+
+        for (let i = 0; i < total; i++) {
+            const punto = document.createElement("button");
+            punto.className = "punto";
+            punto.setAttribute("aria-label", "Ir al paso " + (i + 1));
+            punto.addEventListener("click", () => ir(i));
+            contenedorPuntos.appendChild(punto);
+        }
+
+        function ir(indice) {
+            actual = (indice + total) % total;
+            pista.style.transform = "translateX(-" + (actual * 100) + "%)";
+            [...contenedorPuntos.children].forEach((p, i) =>
+                p.classList.toggle("activo", i === actual)
+            );
+        }
+
+        document.getElementById("anterior").addEventListener("click", () => ir(actual - 1));
+        document.getElementById("siguiente").addEventListener("click", () => ir(actual + 1));
+
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "ArrowLeft") ir(actual - 1);
+            if (e.key === "ArrowRight") ir(actual + 1);
+        });
+
+        ir(0);
+    </script>
 
 </body>
 </html>
