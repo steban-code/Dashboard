@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Estado de la API | Penitenciaría San Serrato</title>
+    <title>Penitenciaría San Serrato | Monitor de energía</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,105 +18,155 @@
 <body>
 
     <header class="header">
-        <h1>Estado de la API</h1>
-        <p>Penitenciaría San Serrato</p>
+        <h1>Penitenciaría San Serrato</h1>
+        <p>Aquí las celdas se mueven solas</p>
     </header>
 
     <main class="inicio">
 
         <section class="presentacion">
 
-            <span class="etiqueta" id="etiqueta">Comprobando…</span>
+            <span class="etiqueta">Proyecto ESP32 + INA219 + Servomotores</span>
 
-            <h2>Estado del servicio</h2>
+            <h2>Monitoreo y control energético</h2>
 
-            <p id="resumen">
-                Se está consultando la API. Si el servidor estaba dormido,
-                la primera respuesta puede tardar cerca de un minuto.
+            <p>
+                <strong>San Serrato</strong> es una maqueta de cárcel cuyas
+                celdas se abren, se cierran y se desplazan mediante
+                servomotores controlados por un ESP32.
             </p>
+
+            <p>
+                Los sensores INA219 miden las variables eléctricas de entrada
+                y salida, y una API las guarda en una base de datos
+                PostgreSQL para poder supervisarlas desde esta plataforma.
+            </p>
+
+        </section>
+
+        <!-- CARRUSEL DEL PROCESO -->
+        <section class="proceso">
+
+            <h3>Proceso de construcción</h3>
+            <p>Del diseño de la maqueta a las celdas en movimiento.</p>
+
+            <div class="carrusel" role="region" aria-roledescription="carrusel" aria-label="Proceso de construcción">
+
+                <div class="pista" id="pista">
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso1.jpg">
+                            <img src="img/paso1.jpg" alt="Diseño de la maqueta" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>1. Diseño de la maqueta</strong>
+                            <span>Planos del pabellón, el pasillo y la ubicación de cada celda.</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso2.jpg">
+                            <img src="img/paso2.jpg" alt="Estructura de las celdas" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>2. Estructura de las celdas</strong>
+                            <span>Armado de las celdas, las rejas y las puertas móviles.</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso3.jpg">
+                            <img src="img/paso3.jpg" alt="Instalación de servomotores" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>3. Instalación de servomotores</strong>
+                            <span>Cada servo se fija a una celda para abrirla y cerrarla.</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso4.jpg">
+                            <img src="img/paso4.jpg" alt="Circuito con ESP32 e INA219" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>4. Circuito con ESP32 e INA219</strong>
+                            <span>Conexión del microcontrolador, los servos y los sensores de energía.</span>
+                        </figcaption>
+                    </figure>
+
+                    <figure class="diapositiva">
+                        <div class="marco" data-img="img/paso5.jpg">
+                            <img src="img/paso5.jpg" alt="Pruebas y monitoreo" onerror="this.remove()">
+                        </div>
+                        <figcaption>
+                            <strong>5. Pruebas y monitoreo</strong>
+                            <span>Las mediciones llegan a la API y se guardan en PostgreSQL.</span>
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+                <button class="flecha anterior" id="anterior" aria-label="Paso anterior">‹</button>
+                <button class="flecha siguiente" id="siguiente" aria-label="Paso siguiente">›</button>
+
+            </div>
+
+            <div class="puntos" id="puntos"></div>
 
         </section>
 
         <section class="opciones">
 
-            <div class="opcion">
-                <div class="icono" id="i-api">⏳</div>
-                <h3>API Node.js</h3>
-                <p id="d-api">Esperando respuesta…</p>
-                <span id="v-api">--</span>
-            </div>
+            <!-- CONEXIÓN API -->
+            <a href="api.html"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="opcion">
 
-            <div class="opcion">
-                <div class="icono" id="i-bd">⏳</div>
-                <h3>Base de datos</h3>
-                <p id="d-bd">Se comprueba al consultar las mediciones.</p>
-                <span id="v-bd">--</span>
-            </div>
+                <div class="icono">⚙️</div>
 
-            <div class="opcion">
-                <div class="icono" id="i-esp">⏳</div>
-                <h3>ESP32</h3>
-                <p id="d-esp">Se deduce de la última medición recibida.</p>
-                <span id="v-esp">--</span>
-            </div>
+                <h3>Conexión API</h3>
 
-            <div class="opcion">
-                <div class="icono">⏱️</div>
-                <h3>Tiempo de respuesta</h3>
-                <p>Si es alto, el servidor puede estar despertando.</p>
-                <span id="v-ms">--</span>
-            </div>
+                <p>
+                    Accede al servicio backend y consulta
+                    el estado de funcionamiento de la API.
+                </p>
 
-            <a href="#" class="opcion" id="reintentar">
-                <div class="icono">🔄</div>
-                <h3>Comprobar ahora</h3>
-                <p>Vuelve a consultar la API sin esperar al siguiente ciclo.</p>
-                <span>Actualizar →</span>
+                <span>Consultar API →</span>
+
             </a>
 
-            <a href="index.html" class="opcion">
-                <div class="icono">🏠</div>
-                <h3>Volver al inicio</h3>
-                <p>Regresa a la página principal del proyecto.</p>
-                <span>Ir al inicio →</span>
+            <!-- MEDICIONES -->
+            <a href="mediciones.html"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="opcion">
+
+                <div class="icono">📊</div>
+
+                <h3>Mediciones</h3>
+
+                <p>
+                    Consulta las mediciones de voltaje, corriente
+                    y potencia registradas en la base de datos.
+                </p>
+
+                <span>Ver mediciones →</span>
+
             </a>
 
         </section>
 
         <section class="informacion">
 
-            <h3>Flujo de datos</h3>
+            <h3>Arquitectura del proyecto</h3>
 
             <div class="arquitectura">
-                <div id="n-esp">ESP32</div>
+                <div>ESP32</div>
                 <span>→</span>
-                <div id="n-api">API Node.js</div>
+                <div>API Node.js</div>
                 <span>→</span>
-                <div id="n-bd">PostgreSQL</div>
-            </div>
-
-        </section>
-
-        <section class="informacion">
-
-            <h3>Última medición recibida</h3>
-
-            <div class="arquitectura">
-                <div id="m-id">Registro: --</div>
-                <div id="m-fecha">Fecha: --</div>
-                <div id="m-hace">Hace: --</div>
-            </div>
-
-        </section>
-
-        <section class="informacion">
-
-            <h3>Rutas disponibles</h3>
-
-            <div class="arquitectura">
-                <div>GET /</div>
-                <div>GET /api/mediciones</div>
-                <div>POST /api/mediciones</div>
+                <div>PostgreSQL</div>
             </div>
 
         </section>
@@ -130,124 +180,37 @@
     </footer>
 
     <script>
-        // ---- CONFIGURACIÓN ----
-        const BASE_URL = "https://dashboard-rjuc.onrender.com";
-        const INTERVALO_MS = 10000;   // cada cuánto se comprueba
-        const LIMITE_ESP32_S = 120;   // segundos sin datos para considerar el ESP32 inactivo
+        // Carrusel del proceso
+        const pista = document.getElementById("pista");
+        const total = pista.children.length;
+        const contenedorPuntos = document.getElementById("puntos");
+        let actual = 0;
 
-        // Colores de style2.css para marcar los nodos del flujo
-        const COLOR_OK = "#d11a1a";
-        const COLOR_MAL = "#ffffff";
-        const COLOR_NEUTRO = "#2a1717";
-
-        const $ = (id) => document.getElementById(id);
-        let ultimaFecha = null;
-
-        function poner(prefijo, icono, valor, detalle) {
-            $("i-" + prefijo).textContent = icono;
-            $("v-" + prefijo).textContent = valor;
-            $("d-" + prefijo).textContent = detalle;
+        for (let i = 0; i < total; i++) {
+            const punto = document.createElement("button");
+            punto.className = "punto";
+            punto.setAttribute("aria-label", "Ir al paso " + (i + 1));
+            punto.addEventListener("click", () => ir(i));
+            contenedorPuntos.appendChild(punto);
         }
 
-        function nodo(id, color) {
-            $(id).style.borderColor = color;
+        function ir(indice) {
+            actual = (indice + total) % total;
+            pista.style.transform = "translateX(-" + (actual * 100) + "%)";
+            [...contenedorPuntos.children].forEach((p, i) =>
+                p.classList.toggle("activo", i === actual)
+            );
         }
 
-        function textoHace(segundos) {
-            if (segundos < 60) return segundos + " s";
-            if (segundos < 3600) return Math.floor(segundos / 60) + " min";
-            if (segundos < 86400) return Math.floor(segundos / 3600) + " h";
-            return Math.floor(segundos / 86400) + " días";
-        }
+        document.getElementById("anterior").addEventListener("click", () => ir(actual - 1));
+        document.getElementById("siguiente").addEventListener("click", () => ir(actual + 1));
 
-        function actualizarEdad() {
-            if (!ultimaFecha) return;
-
-            const segundos = Math.max(0, Math.round((Date.now() - ultimaFecha.getTime()) / 1000));
-            $("m-hace").textContent = "Hace: " + textoHace(segundos);
-
-            if (segundos <= LIMITE_ESP32_S) {
-                poner("esp", "✅", "Enviando", "Última lectura hace " + textoHace(segundos) + ".");
-                nodo("n-esp", COLOR_OK);
-            } else {
-                poner("esp", "⚠️", "Sin datos", "Última lectura hace " + textoHace(segundos) + ".");
-                nodo("n-esp", COLOR_MAL);
-            }
-        }
-
-        async function comprobarApi() {
-            const inicio = performance.now();
-            try {
-                const r = await fetch(BASE_URL + "/", { cache: "no-store" });
-                if (!r.ok) throw new Error("HTTP " + r.status);
-                const datos = await r.json();
-
-                poner("api", "✅", "En línea", datos.mensaje || "Respuesta correcta.");
-                $("v-ms").textContent = Math.round(performance.now() - inicio) + " ms";
-                nodo("n-api", COLOR_OK);
-                return true;
-            } catch (e) {
-                poner("api", "⚠️", "Sin conexión", "No respondió. Puede estar despertando o desplegándose.");
-                $("v-ms").textContent = "--";
-                nodo("n-api", COLOR_MAL);
-                return false;
-            }
-        }
-
-        async function comprobarMediciones() {
-            try {
-                const r = await fetch(BASE_URL + "/api/mediciones", { cache: "no-store" });
-                if (!r.ok) throw new Error("HTTP " + r.status);
-                const m = await r.json();
-
-                poner("bd", "✅", "Conectada", "Las consultas a PostgreSQL responden bien.");
-                nodo("n-bd", COLOR_OK);
-
-                if (m && m.id !== undefined) {
-                    ultimaFecha = new Date(m.fecha);
-                    $("m-id").textContent = "Registro: #" + m.id;
-                    $("m-fecha").textContent = "Fecha: " + ultimaFecha.toLocaleString("es-CO");
-                    actualizarEdad();
-                } else {
-                    ultimaFecha = null;
-                    $("m-id").textContent = "Registro: --";
-                    $("m-fecha").textContent = "Fecha: --";
-                    $("m-hace").textContent = "Hace: --";
-                    poner("esp", "⏳", "Sin datos", "Todavía no hay mediciones guardadas.");
-                    nodo("n-esp", COLOR_NEUTRO);
-                }
-            } catch (e) {
-                poner("bd", "⚠️", "Con problemas", "La consulta a la base de datos falló.");
-                nodo("n-bd", COLOR_MAL);
-            }
-        }
-
-        async function comprobar() {
-            const enLinea = await comprobarApi();
-
-            if (enLinea) {
-                await comprobarMediciones();
-                $("etiqueta").textContent = "API en línea";
-                $("resumen").textContent =
-                    "Última comprobación: " + new Date().toLocaleTimeString("es-CO") +
-                    ". La página se actualiza sola cada 10 segundos.";
-            } else {
-                nodo("n-bd", COLOR_NEUTRO);
-                nodo("n-esp", COLOR_NEUTRO);
-                $("etiqueta").textContent = "API sin conexión";
-                $("resumen").textContent =
-                    "La API no responde. Puede estar despertando o desplegándose; se reintenta sola.";
-            }
-        }
-
-        $("reintentar").addEventListener("click", (e) => {
-            e.preventDefault();
-            comprobar();
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "ArrowLeft") ir(actual - 1);
+            if (e.key === "ArrowRight") ir(actual + 1);
         });
 
-        comprobar();
-        setInterval(comprobar, INTERVALO_MS);
-        setInterval(actualizarEdad, 1000);
+        ir(0);
     </script>
 
 </body>
