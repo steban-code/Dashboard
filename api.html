@@ -1,16 +1,254 @@
-<!-- CONEXIÓN API -->
-<a href="api.html"
-   class="opcion">
+<!DOCTYPE html>
+<html lang="es">
 
-    <div class="icono">⚙️</div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <h3>Conexión API</h3>
+    <title>Estado de la API | Penitenciaría San Serrato</title>
 
-    <p>
-        Accede al servicio backend y consulta
-        el estado de funcionamiento de la API.
-    </p>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <span>Consultar API →</span>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-</a>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <h1>Estado de la API</h1>
+        <p>Penitenciaría San Serrato</p>
+    </header>
+
+    <main class="inicio">
+
+        <section class="presentacion">
+
+            <span class="etiqueta" id="etiqueta">Comprobando…</span>
+
+            <h2>Estado del servicio</h2>
+
+            <p id="resumen">
+                Se está consultando la API. Si el servidor estaba dormido,
+                la primera respuesta puede tardar cerca de un minuto.
+            </p>
+
+        </section>
+
+        <section class="opciones">
+
+            <div class="opcion">
+                <div class="icono" id="i-api">⏳</div>
+                <h3>API Node.js</h3>
+                <p id="d-api">Esperando respuesta…</p>
+                <span id="v-api">--</span>
+            </div>
+
+            <div class="opcion">
+                <div class="icono" id="i-bd">⏳</div>
+                <h3>Base de datos</h3>
+                <p id="d-bd">Se comprueba al consultar las mediciones.</p>
+                <span id="v-bd">--</span>
+            </div>
+
+            <div class="opcion">
+                <div class="icono" id="i-esp">⏳</div>
+                <h3>ESP32</h3>
+                <p id="d-esp">Se deduce de la última medición recibida.</p>
+                <span id="v-esp">--</span>
+            </div>
+
+            <div class="opcion">
+                <div class="icono">⏱️</div>
+                <h3>Tiempo de respuesta</h3>
+                <p>Si es alto, el servidor puede estar despertando.</p>
+                <span id="v-ms">--</span>
+            </div>
+
+            <a href="#" class="opcion" id="reintentar">
+                <div class="icono">🔄</div>
+                <h3>Comprobar ahora</h3>
+                <p>Vuelve a consultar la API sin esperar al siguiente ciclo.</p>
+                <span>Actualizar →</span>
+            </a>
+
+            <a href="index.html" class="opcion">
+                <div class="icono">🏠</div>
+                <h3>Volver al inicio</h3>
+                <p>Regresa a la página principal del proyecto.</p>
+                <span>Ir al inicio →</span>
+            </a>
+
+        </section>
+
+        <section class="informacion">
+
+            <h3>Flujo de datos</h3>
+
+            <div class="arquitectura">
+                <div id="n-esp">ESP32</div>
+                <span>→</span>
+                <div id="n-api">API Node.js</div>
+                <span>→</span>
+                <div id="n-bd">PostgreSQL</div>
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <h3>Última medición recibida</h3>
+
+            <div class="arquitectura">
+                <div id="m-id">Registro: --</div>
+                <div id="m-fecha">Fecha: --</div>
+                <div id="m-hace">Hace: --</div>
+            </div>
+
+        </section>
+
+        <section class="informacion">
+
+            <h3>Rutas disponibles</h3>
+
+            <div class="arquitectura">
+                <div>GET /</div>
+                <div>GET /api/mediciones</div>
+                <div>POST /api/mediciones</div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Penitenciaría San Serrato | Monitoreo energético con ESP32 + INA219
+        </p>
+    </footer>
+
+    <script>
+        // ---- CONFIGURACIÓN ----
+        const BASE_URL = "https://dashboard-rjuc.onrender.com";
+        const INTERVALO_MS = 10000;   // cada cuánto se comprueba
+        const LIMITE_ESP32_S = 120;   // segundos sin datos para considerar el ESP32 inactivo
+
+        // Colores de style2.css para marcar los nodos del flujo
+        const COLOR_OK = "#d11a1a";
+        const COLOR_MAL = "#ffffff";
+        const COLOR_NEUTRO = "#2a1717";
+
+        const $ = (id) => document.getElementById(id);
+        let ultimaFecha = null;
+
+        function poner(prefijo, icono, valor, detalle) {
+            $("i-" + prefijo).textContent = icono;
+            $("v-" + prefijo).textContent = valor;
+            $("d-" + prefijo).textContent = detalle;
+        }
+
+        function nodo(id, color) {
+            $(id).style.borderColor = color;
+        }
+
+        function textoHace(segundos) {
+            if (segundos < 60) return segundos + " s";
+            if (segundos < 3600) return Math.floor(segundos / 60) + " min";
+            if (segundos < 86400) return Math.floor(segundos / 3600) + " h";
+            return Math.floor(segundos / 86400) + " días";
+        }
+
+        function actualizarEdad() {
+            if (!ultimaFecha) return;
+
+            const segundos = Math.max(0, Math.round((Date.now() - ultimaFecha.getTime()) / 1000));
+            $("m-hace").textContent = "Hace: " + textoHace(segundos);
+
+            if (segundos <= LIMITE_ESP32_S) {
+                poner("esp", "✅", "Enviando", "Última lectura hace " + textoHace(segundos) + ".");
+                nodo("n-esp", COLOR_OK);
+            } else {
+                poner("esp", "⚠️", "Sin datos", "Última lectura hace " + textoHace(segundos) + ".");
+                nodo("n-esp", COLOR_MAL);
+            }
+        }
+
+        async function comprobarApi() {
+            const inicio = performance.now();
+            try {
+                const r = await fetch(BASE_URL + "/", { cache: "no-store" });
+                if (!r.ok) throw new Error("HTTP " + r.status);
+                const datos = await r.json();
+
+                poner("api", "✅", "En línea", datos.mensaje || "Respuesta correcta.");
+                $("v-ms").textContent = Math.round(performance.now() - inicio) + " ms";
+                nodo("n-api", COLOR_OK);
+                return true;
+            } catch (e) {
+                poner("api", "⚠️", "Sin conexión", "No respondió. Puede estar despertando o desplegándose.");
+                $("v-ms").textContent = "--";
+                nodo("n-api", COLOR_MAL);
+                return false;
+            }
+        }
+
+        async function comprobarMediciones() {
+            try {
+                const r = await fetch(BASE_URL + "/api/mediciones", { cache: "no-store" });
+                if (!r.ok) throw new Error("HTTP " + r.status);
+                const m = await r.json();
+
+                poner("bd", "✅", "Conectada", "Las consultas a PostgreSQL responden bien.");
+                nodo("n-bd", COLOR_OK);
+
+                if (m && m.id !== undefined) {
+                    ultimaFecha = new Date(m.fecha);
+                    $("m-id").textContent = "Registro: #" + m.id;
+                    $("m-fecha").textContent = "Fecha: " + ultimaFecha.toLocaleString("es-CO");
+                    actualizarEdad();
+                } else {
+                    ultimaFecha = null;
+                    $("m-id").textContent = "Registro: --";
+                    $("m-fecha").textContent = "Fecha: --";
+                    $("m-hace").textContent = "Hace: --";
+                    poner("esp", "⏳", "Sin datos", "Todavía no hay mediciones guardadas.");
+                    nodo("n-esp", COLOR_NEUTRO);
+                }
+            } catch (e) {
+                poner("bd", "⚠️", "Con problemas", "La consulta a la base de datos falló.");
+                nodo("n-bd", COLOR_MAL);
+            }
+        }
+
+        async function comprobar() {
+            const enLinea = await comprobarApi();
+
+            if (enLinea) {
+                await comprobarMediciones();
+                $("etiqueta").textContent = "API en línea";
+                $("resumen").textContent =
+                    "Última comprobación: " + new Date().toLocaleTimeString("es-CO") +
+                    ". La página se actualiza sola cada 10 segundos.";
+            } else {
+                nodo("n-bd", COLOR_NEUTRO);
+                nodo("n-esp", COLOR_NEUTRO);
+                $("etiqueta").textContent = "API sin conexión";
+                $("resumen").textContent =
+                    "La API no responde. Puede estar despertando o desplegándose; se reintenta sola.";
+            }
+        }
+
+        $("reintentar").addEventListener("click", (e) => {
+            e.preventDefault();
+            comprobar();
+        });
+
+        comprobar();
+        setInterval(comprobar, INTERVALO_MS);
+        setInterval(actualizarEdad, 1000);
+    </script>
+
+</body>
+</html>
