@@ -1,0 +1,3912 @@
+CONEXION ESTABLECIDA CON LA IP: 192.168.0.16
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+Conexion a API fallo
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.01,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.20,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 13:12:27
+voltage_real_entrada: 0.01 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.00 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.01,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 13:12:42
+voltage_real_entrada: -0.00 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -316.40 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 13:12:57
+voltage_real_entrada: -0.00 V
+corriente_entrada: -0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -309.40 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 13:13:12
+voltage_real_entrada: 0.00 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -314.60 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 13:13:27
+voltage_real_entrada: 0.00 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -311.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+CONEXION ESTABLECIDA CON LA IP: 192.168.0.16
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+Conexion a API fallo
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.54,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":0.01,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 13:14:25
+voltage_real_entrada: 3.30 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -287.50 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 13:14:40
+voltage_real_entrada: 3.30 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -312.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+CONEXION ESTABLECIDA CON LA IP: 192.168.0.16
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+Conexion a API fallo
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.01,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:2:20
+voltage_real_entrada: 0.02 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.20 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.02,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.20,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:2:35
+voltage_real_entrada: 0.00 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -280.00 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:2:50
+voltage_real_entrada: -0.00 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -270.80 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:3:5
+voltage_real_entrada: 3.27 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: -0.02 V
+corriente_salida: -247.00 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.27,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:3:20
+voltage_real_entrada: 0.00 V
+corriente_entrada: -0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -256.00 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:3:35
+voltage_real_entrada: 0.42 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.02 V
+corriente_salida: -246.40 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.42,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:3:50
+voltage_real_entrada: 0.00 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -290.50 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:4:5
+voltage_real_entrada: 3.26 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: -0.02 V
+corriente_salida: -248.80 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.26,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:4:20
+voltage_real_entrada: 3.27 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -272.40 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.27,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:4:35
+voltage_real_entrada: 3.26 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: -0.03 V
+corriente_salida: -252.00 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+ )U )	8 #   e  F )  A jB=FjFGET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":3.17,"corriente_s":307.80,"potencia_s":966.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:6:32
+voltage_real_entrada: 0.00 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.17 V
+corriente_salida: 308.50 mA
+potencia_salida: 970.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":3.17,"corriente_s":308.50,"potencia_s":970.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:6:47
+voltage_real_entrada: 0.02 V
+corriente_entrada: -0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 0.69 V
+corriente_salida: 0.00 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.02,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":0.69,"corriente_s":0.00,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:7:2
+voltage_real_entrada: 3.24 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.24,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:7:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.18 V
+corriente_salida: 319.00 mA
+potencia_salida: 1002.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.18,"corriente_s":319.00,"potencia_s":1002.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:7:32
+voltage_real_entrada: 0.00 V
+corriente_entrada: -0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.18 V
+corriente_salida: 317.20 mA
+potencia_salida: 1000.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":0.00,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":3.18,"corriente_s":317.20,"potencia_s":1000.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:7:47
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.17 V
+corriente_salida: 321.20 mA
+potencia_salida: 1006.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.17,"corriente_s":321.20,"potencia_s":1006.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:8:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.17 V
+corriente_salida: 318.50 mA
+potencia_salida: 1000.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.17,"corriente_s":318.50,"potencia_s":1000.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:8:17
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 323.40 mA
+potencia_salida: 1016.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":323.40,"potencia_s":1016.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:8:32
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.17 V
+corriente_salida: 319.40 mA
+potencia_salida: 1002.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.17,"corriente_s":319.40,"potencia_s":1002.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:8:47
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 325.60 mA
+potencia_salida: 1020.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":325.60,"potencia_s":1020.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:9:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.17 V
+corriente_salida: 319.90 mA
+potencia_salida: 1006.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.17,"corriente_s":319.90,"potencia_s":1006.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:9:17
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 327.70 mA
+potencia_salida: 1026.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":3.16,"corriente_s":327.70,"potencia_s":1026.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:9:32
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 321.00 mA
+potencia_salida: 1006.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":321.00,"potencia_s":1006.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:9:47
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 330.60 mA
+potencia_salida: 1032.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":330.60,"potencia_s":1032.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:10:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 321.60 mA
+potencia_salida: 1006.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":321.60,"potencia_s":1006.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:10:17
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 333.40 mA
+potencia_salida: 1038.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":333.40,"potencia_s":1038.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:10:32
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 322.00 mA
+potencia_salida: 1010.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":322.00,"potencia_s":1010.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:10:47
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 337.60 mA
+potencia_salida: 1048.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":337.60,"potencia_s":1048.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:11:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 322.30 mA
+potencia_salida: 1010.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":322.30,"potencia_s":1010.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:11:17
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 342.40 mA
+potencia_salida: 1058.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":342.40,"potencia_s":1058.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:11:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 322.50 mA
+potencia_salida: 1010.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":322.50,"potencia_s":1010.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:11:47
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 340.20 mA
+potencia_salida: 1068.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":340.20,"potencia_s":1068.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:12:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 322.70 mA
+potencia_salida: 1010.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":322.70,"potencia_s":1010.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:12:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 321.00 mA
+potencia_salida: 1016.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":321.00,"potencia_s":1016.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:12:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 324.20 mA
+potencia_salida: 1012.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":324.20,"potencia_s":1012.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:12:47
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 321.20 mA
+potencia_salida: 1006.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":321.20,"potencia_s":1006.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:13:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 324.70 mA
+potencia_salida: 1016.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":3.15,"corriente_s":324.70,"potencia_s":1016.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:13:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 321.80 mA
+potencia_salida: 1006.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":321.80,"potencia_s":1006.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:13:32
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 323.40 mA
+potencia_salida: 1012.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":3.16,"corriente_s":323.40,"potencia_s":1012.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:13:47
+voltage_real_entrada: 3.38 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 321.20 mA
+potencia_salida: 1002.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.38,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":321.20,"potencia_s":1002.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:14:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 324.40 mA
+potencia_salida: 1010.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":324.40,"potencia_s":1010.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:14:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 320.90 mA
+potencia_salida: 1002.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":320.90,"potencia_s":1002.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:14:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 324.50 mA
+potencia_salida: 1012.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":324.50,"potencia_s":1012.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:14:47
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 320.10 mA
+potencia_salida: 1000.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.15,"corriente_s":320.10,"potencia_s":1000.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:15:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 325.10 mA
+potencia_salida: 1012.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":325.10,"potencia_s":1012.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:15:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 319.70 mA
+potencia_salida: 1000.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.16,"corriente_s":319.70,"potencia_s":1000.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:15:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 326.20 mA
+potencia_salida: 1016.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":326.20,"potencia_s":1016.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:15:47
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.16 V
+corriente_salida: 319.40 mA
+potencia_salida: 996.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.16,"corriente_s":319.40,"potencia_s":996.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:16:2
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 326.60 mA
+potencia_salida: 1016.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.14,"corriente_s":326.60,"potencia_s":1016.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:16:17
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 318.60 mA
+potencia_salida: 992.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.50,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":318.60,"potencia_s":992.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:16:32
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 328.40 mA
+potencia_salida: 1022.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.70,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":328.40,"potencia_s":1022.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:16:47
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 317.40 mA
+potencia_salida: 990.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":3.15,"corriente_s":317.40,"potencia_s":990.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:17:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 331.00 mA
+potencia_salida: 1026.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":331.00,"potencia_s":1026.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:17:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 317.20 mA
+potencia_salida: 990.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":317.20,"potencia_s":990.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:17:32
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 336.30 mA
+potencia_salida: 1038.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.50,"potencia_e":4.00,"voltage_s":3.13,"corriente_s":336.30,"potencia_s":1038.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:17:47
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 316.40 mA
+potencia_salida: 986.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":316.40,"potencia_s":986.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:18:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 339.80 mA
+potencia_salida: 1058.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.13,"corriente_s":339.80,"potencia_s":1058.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:18:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 316.20 mA
+potencia_salida: 984.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":316.20,"potencia_s":984.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:18:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 319.40 mA
+potencia_salida: 1006.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":319.40,"potencia_s":1006.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:18:47
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 315.50 mA
+potencia_salida: 984.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":315.50,"potencia_s":984.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:19:2
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 313.70 mA
+potencia_salida: 976.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":313.70,"potencia_s":976.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:19:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 315.90 mA
+potencia_salida: 986.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":315.90,"potencia_s":986.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:19:32
+voltage_real_entrada: 3.35 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 312.90 mA
+potencia_salida: 974.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":312.90,"potencia_s":974.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:19:47
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 314.80 mA
+potencia_salida: 980.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":314.80,"potencia_s":980.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:20:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 311.60 mA
+potencia_salida: 970.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":311.60,"potencia_s":970.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:20:17
+voltage_real_entrada: 3.35 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 314.20 mA
+potencia_salida: 980.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":314.20,"potencia_s":980.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:20:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 310.90 mA
+potencia_salida: 970.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":310.90,"potencia_s":970.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:20:47
+voltage_real_entrada: 3.34 V
+corriente_entrada: 0.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 313.90 mA
+potencia_salida: 976.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":0.70,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":313.90,"potencia_s":976.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:21:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 309.60 mA
+potencia_salida: 966.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.15,"corriente_s":309.60,"potencia_s":966.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:21:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 313.50 mA
+potencia_salida: 976.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":313.50,"potencia_s":976.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:21:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.15 V
+corriente_salida: 309.10 mA
+potencia_salida: 964.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":0.90,"potencia_e":6.00,"voltage_s":3.15,"corriente_s":309.10,"potencia_s":964.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:21:47
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 314.00 mA
+potencia_salida: 974.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":314.00,"potencia_s":974.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:22:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 308.00 mA
+potencia_salida: 956.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":308.00,"potencia_s":956.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:22:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 314.80 mA
+potencia_salida: 976.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":314.80,"potencia_s":976.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:22:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 306.50 mA
+potencia_salida: 954.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":3.14,"corriente_s":306.50,"potencia_s":954.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:22:47
+voltage_real_entrada: 3.36 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 315.30 mA
+potencia_salida: 976.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":315.30,"potencia_s":976.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:23:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 305.00 mA
+potencia_salida: 950.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":305.00,"potencia_s":950.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:23:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 317.70 mA
+potencia_salida: 984.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.13,"corriente_s":317.70,"potencia_s":984.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:23:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 303.70 mA
+potencia_salida: 944.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":3.14,"corriente_s":303.70,"potencia_s":944.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:23:47
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 323.10 mA
+potencia_salida: 992.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.12,"corriente_s":323.10,"potencia_s":992.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:24:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 302.20 mA
+potencia_salida: 940.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":302.20,"potencia_s":940.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:24:17
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 331.40 mA
+potencia_salida: 1012.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.11,"corriente_s":331.40,"potencia_s":1012.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:24:32
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 300.60 mA
+potencia_salida: 934.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":300.60,"potencia_s":934.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:24:47
+voltage_real_entrada: 3.35 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 309.60 mA
+potencia_salida: 976.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.13,"corriente_s":309.60,"potencia_s":976.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:25:2
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 299.70 mA
+potencia_salida: 930.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.14,"corriente_s":299.70,"potencia_s":930.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:25:17
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 297.60 mA
+potencia_salida: 924.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":3.14,"corriente_s":297.60,"potencia_s":924.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:25:32
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 298.20 mA
+potencia_salida: 928.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":298.20,"potencia_s":928.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:25:47
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 296.00 mA
+potencia_salida: 918.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.14,"corriente_s":296.00,"potencia_s":918.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:26:2
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 296.90 mA
+potencia_salida: 924.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.14,"corriente_s":296.90,"potencia_s":924.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:26:17
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 294.00 mA
+potencia_salida: 914.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":294.00,"potencia_s":914.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:26:32
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 295.20 mA
+potencia_salida: 918.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":295.20,"potencia_s":918.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:26:46
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.14 V
+corriente_salida: 292.50 mA
+potencia_salida: 908.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.80,"potencia_e":6.00,"voltage_s":3.14,"corriente_s":292.50,"potencia_s":908.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:27:1
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 294.70 mA
+potencia_salida: 914.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.80,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":294.70,"potencia_s":914.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:27:16
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 290.30 mA
+potencia_salida: 902.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.80,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":290.30,"potencia_s":902.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:27:31
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 293.20 mA
+potencia_salida: 908.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":293.20,"potencia_s":908.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:27:46
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 287.70 mA
+potencia_salida: 894.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":287.70,"potencia_s":894.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:28:1
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 292.70 mA
+potencia_salida: 908.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":292.70,"potencia_s":908.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:28:16
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 285.90 mA
+potencia_salida: 888.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":285.90,"potencia_s":888.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:28:31
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 292.10 mA
+potencia_salida: 904.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":292.10,"potencia_s":904.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:28:46
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 283.60 mA
+potencia_salida: 878.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.10,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":283.60,"potencia_s":878.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:29:1
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 293.20 mA
+potencia_salida: 904.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.12,"corriente_s":293.20,"potencia_s":904.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:29:16
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 281.40 mA
+potencia_salida: 872.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":281.40,"potencia_s":872.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:29:31
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 295.20 mA
+potencia_salida: 908.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.11,"corriente_s":295.20,"potencia_s":908.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:29:46
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.13 V
+corriente_salida: 279.60 mA
+potencia_salida: 866.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.13,"corriente_s":279.60,"potencia_s":866.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:30:1
+voltage_real_entrada: 3.36 V
+corriente_entrada: 2.00 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 300.80 mA
+potencia_salida: 920.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":2.00,"potencia_e":6.00,"voltage_s":3.11,"corriente_s":300.80,"potencia_s":920.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:30:16
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 277.20 mA
+potencia_salida: 858.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.12,"corriente_s":277.20,"potencia_s":858.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:30:31
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 311.80 mA
+potencia_salida: 948.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.80,"potencia_e":6.00,"voltage_s":3.09,"corriente_s":311.80,"potencia_s":948.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:30:46
+voltage_real_entrada: 3.37 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 274.80 mA
+potencia_salida: 852.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.12,"corriente_s":274.80,"potencia_s":852.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:31:1
+voltage_real_entrada: 3.37 V
+corriente_entrada: 2.20 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.10 V
+corriente_salida: 301.30 mA
+potencia_salida: 940.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.37,"corriente_e":2.20,"potencia_e":6.00,"voltage_s":3.10,"corriente_s":301.30,"potencia_s":940.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:31:16
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 272.60 mA
+potencia_salida: 846.00 mW
+DATOS GUARDADOS EN MICRO SD
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:31:31
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 272.60 mA
+potencia_salida: 848.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.12,"corriente_s":272.60,"potencia_s":848.00}
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.12,"corriente_s":272.60,"potencia_s":848.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:31:46
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 270.90 mA
+potencia_salida: 838.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.80,"potencia_e":6.00,"voltage_s":3.12,"corriente_s":270.90,"potencia_s":838.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:32:1
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 268.50 mA
+potencia_salida: 832.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.80,"potencia_e":6.00,"voltage_s":3.12,"corriente_s":268.50,"potencia_s":832.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:32:16
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 268.70 mA
+potencia_salida: 832.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":3.12,"corriente_s":268.70,"potencia_s":832.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:32:31
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.12 V
+corriente_salida: 265.80 mA
+potencia_salida: 822.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.50,"potencia_e":4.00,"voltage_s":3.12,"corriente_s":265.80,"potencia_s":822.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:32:46
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 267.30 mA
+potencia_salida: 826.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.11,"corriente_s":267.30,"potencia_s":826.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:33:1
+voltage_real_entrada: 3.34 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 263.90 mA
+potencia_salida: 816.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.11,"corriente_s":263.90,"potencia_s":816.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:33:16
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 266.00 mA
+potencia_salida: 820.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.11,"corriente_s":266.00,"potencia_s":820.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:33:31
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 261.50 mA
+potencia_salida: 806.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.11,"corriente_s":261.50,"potencia_s":806.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:33:46
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 264.50 mA
+potencia_salida: 816.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.11,"corriente_s":264.50,"potencia_s":816.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:34:1
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 259.70 mA
+potencia_salida: 802.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.11,"corriente_s":259.70,"potencia_s":802.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:34:16
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.10 V
+corriente_salida: 263.90 mA
+potencia_salida: 812.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.10,"corriente_s":263.90,"potencia_s":812.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:34:31
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 257.90 mA
+potencia_salida: 792.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.11,"corriente_s":257.90,"potencia_s":792.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:34:46
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.10 V
+corriente_salida: 264.10 mA
+potencia_salida: 812.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.10,"corriente_s":264.10,"potencia_s":812.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:35:1
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 255.30 mA
+potencia_salida: 786.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.11,"corriente_s":255.30,"potencia_s":786.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:35:16
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 264.50 mA
+potencia_salida: 810.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.09,"corriente_s":264.50,"potencia_s":810.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:35:31
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.11 V
+corriente_salida: 253.40 mA
+potencia_salida: 780.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.80,"potencia_e":6.00,"voltage_s":3.11,"corriente_s":253.40,"potencia_s":780.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:35:46
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 267.30 mA
+potencia_salida: 816.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.09,"corriente_s":267.30,"potencia_s":816.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:36:1
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.10 V
+corriente_salida: 250.90 mA
+potencia_salida: 774.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.10,"corriente_s":250.90,"potencia_s":774.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:36:16
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.80 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.08 V
+corriente_salida: 271.30 mA
+potencia_salida: 826.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.80,"potencia_e":6.00,"voltage_s":3.08,"corriente_s":271.30,"potencia_s":826.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:36:31
+voltage_real_entrada: 3.36 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.10 V
+corriente_salida: 248.10 mA
+potencia_salida: 764.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.36,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.10,"corriente_s":248.10,"potencia_s":764.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:36:46
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.07 V
+corriente_salida: 281.60 mA
+potencia_salida: 846.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.50,"potencia_e":6.00,"voltage_s":3.07,"corriente_s":281.60,"potencia_s":846.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:37:1
+voltage_real_entrada: 3.35 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.10 V
+corriente_salida: 246.40 mA
+potencia_salida: 756.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.35,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.10,"corriente_s":246.40,"potencia_s":756.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:37:16
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.70 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 3.06 V
+corriente_salida: 284.80 mA
+potencia_salida: 882.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.70,"potencia_e":6.00,"voltage_s":3.06,"corriente_s":284.80,"potencia_s":882.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:37:31
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.10 V
+corriente_salida: 244.20 mA
+potencia_salida: 750.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.10,"corriente_s":244.20,"potencia_s":750.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:37:46
+voltage_real_entrada: 3.34 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 249.40 mA
+potencia_salida: 790.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.34,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.09,"corriente_s":249.40,"potencia_s":790.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:38:1
+voltage_real_entrada: 3.33 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 242.20 mA
+potencia_salida: 744.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.33,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.09,"corriente_s":242.20,"potencia_s":744.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:38:16
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 239.30 mA
+potencia_salida: 738.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":3.09,"corriente_s":239.30,"potencia_s":738.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:38:31
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 240.00 mA
+potencia_salida: 738.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":3.09,"corriente_s":240.00,"potencia_s":738.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:38:46
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 237.40 mA
+potencia_salida: 730.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":3.09,"corriente_s":237.40,"potencia_s":730.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:39:1
+voltage_real_entrada: 3.33 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 237.60 mA
+potencia_salida: 728.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.33,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":3.09,"corriente_s":237.60,"potencia_s":728.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:39:16
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.09 V
+corriente_salida: 235.00 mA
+potencia_salida: 720.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":3.09,"corriente_s":235.00,"potencia_s":720.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:39:31
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.08 V
+corriente_salida: 236.10 mA
+potencia_salida: 724.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":3.08,"corriente_s":236.10,"potencia_s":724.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:39:46
+voltage_real_entrada: 3.33 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.08 V
+corriente_salida: 232.40 mA
+potencia_salida: 712.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.33,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":3.08,"corriente_s":232.40,"potencia_s":712.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:40:1
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.08 V
+corriente_salida: 234.50 mA
+potencia_salida: 718.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":3.08,"corriente_s":234.50,"potencia_s":718.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:40:16
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.08 V
+corriente_salida: 229.70 mA
+potencia_salida: 704.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":3.08,"corriente_s":229.70,"potencia_s":704.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:40:31
+voltage_real_entrada: 3.33 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.08 V
+corriente_salida: 233.40 mA
+potencia_salida: 712.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.33,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":3.08,"corriente_s":233.40,"potencia_s":712.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:40:46
+voltage_real_entrada: 3.33 V
+corriente_entrada: 0.00 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.08 V
+corriente_salida: 227.30 mA
+potencia_salida: 694.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.33,"corriente_e":0.00,"potencia_e":0.00,"voltage_s":3.08,"corriente_s":227.30,"potencia_s":694.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:41:1
+voltage_real_entrada: 3.33 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.07 V
+corriente_salida: 232.60 mA
+potencia_salida: 708.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.33,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":3.07,"corriente_s":232.60,"potencia_s":708.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:41:16
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.07 V
+corriente_salida: 225.10 mA
+potencia_salida: 688.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":3.07,"corriente_s":225.10,"potencia_s":688.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:41:31
+voltage_real_entrada: 3.30 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.07 V
+corriente_salida: 233.00 mA
+potencia_salida: 708.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":3.07,"corriente_s":233.00,"potencia_s":708.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:41:46
+voltage_real_entrada: 3.30 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.07 V
+corriente_salida: 222.70 mA
+potencia_salida: 682.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":3.07,"corriente_s":222.70,"potencia_s":682.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:42:1
+voltage_real_entrada: 3.30 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.06 V
+corriente_salida: 234.10 mA
+potencia_salida: 712.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":0.40,"potencia_e":0.00,"voltage_s":3.06,"corriente_s":234.10,"potencia_s":712.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:42:16
+voltage_real_entrada: 3.30 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.07 V
+corriente_salida: 220.30 mA
+potencia_salida: 672.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":0.60,"potencia_e":0.00,"voltage_s":3.07,"corriente_s":220.30,"potencia_s":672.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:42:31
+voltage_real_entrada: 3.29 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.05 V
+corriente_salida: 238.20 mA
+potencia_salida: 718.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.29,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":3.05,"corriente_s":238.20,"potencia_s":718.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:42:46
+voltage_real_entrada: 3.31 V
+corriente_entrada: 0.40 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.07 V
+corriente_salida: 218.10 mA
+potencia_salida: 666.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":0.40,"potencia_e":4.00,"voltage_s":3.07,"corriente_s":218.10,"potencia_s":666.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:43:1
+voltage_real_entrada: 3.28 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 247.90 mA
+potencia_salida: 738.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.28,"corriente_e":0.20,"potencia_e":0.00,"voltage_s":3.04,"corriente_s":247.90,"potencia_s":738.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:43:16
+voltage_real_entrada: 3.30 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 3.06 V
+corriente_salida: 215.70 mA
+potencia_salida: 656.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":0.60,"potencia_e":0.00,"voltage_s":3.06,"corriente_s":215.70,"potencia_s":656.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:43:31
+voltage_real_entrada: 3.29 V
+corriente_entrada: 0.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.02 V
+corriente_salida: 262.50 mA
+potencia_salida: 784.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.29,"corriente_e":0.70,"potencia_e":4.00,"voltage_s":3.02,"corriente_s":262.50,"potencia_s":784.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:43:46
+voltage_real_entrada: 3.31 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.06 V
+corriente_salida: 213.70 mA
+potencia_salida: 652.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.06,"corriente_s":213.70,"potencia_s":652.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:44:1
+voltage_real_entrada: 3.31 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 236.70 mA
+potencia_salida: 738.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.04,"corriente_s":236.70,"potencia_s":738.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:44:16
+voltage_real_entrada: 3.31 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.06 V
+corriente_salida: 210.70 mA
+potencia_salida: 642.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.06,"corriente_s":210.70,"potencia_s":642.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:44:31
+voltage_real_entrada: 3.31 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.06 V
+corriente_salida: 209.10 mA
+potencia_salida: 636.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.06,"corriente_s":209.10,"potencia_s":636.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:44:46
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.06 V
+corriente_salida: 208.90 mA
+potencia_salida: 636.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.06,"corriente_s":208.90,"potencia_s":636.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:45:1
+voltage_real_entrada: 3.31 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.05 V
+corriente_salida: 206.70 mA
+potencia_salida: 630.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.05,"corriente_s":206.70,"potencia_s":630.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:45:16
+voltage_real_entrada: 3.32 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.05 V
+corriente_salida: 206.70 mA
+potencia_salida: 626.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.05,"corriente_s":206.70,"potencia_s":626.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:45:31
+voltage_real_entrada: 3.31 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.05 V
+corriente_salida: 203.90 mA
+potencia_salida: 620.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.05,"corriente_s":203.90,"potencia_s":620.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:45:46
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.05 V
+corriente_salida: 204.30 mA
+potencia_salida: 620.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.05,"corriente_s":204.30,"potencia_s":620.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:46:1
+voltage_real_entrada: 3.31 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.05 V
+corriente_salida: 201.70 mA
+potencia_salida: 612.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.05,"corriente_s":201.70,"potencia_s":612.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:46:16
+voltage_real_entrada: 3.32 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 202.60 mA
+potencia_salida: 616.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.04,"corriente_s":202.60,"potencia_s":616.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:46:31
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 199.50 mA
+potencia_salida: 606.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.04,"corriente_s":199.50,"potencia_s":606.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:46:46
+voltage_real_entrada: 3.32 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 201.10 mA
+potencia_salida: 606.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.32,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.04,"corriente_s":201.10,"potencia_s":606.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:47:1
+voltage_real_entrada: 3.31 V
+corriente_entrada: 0.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 196.50 mA
+potencia_salida: 596.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":0.70,"potencia_e":4.00,"voltage_s":3.04,"corriente_s":196.50,"potencia_s":596.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:47:16
+voltage_real_entrada: 3.31 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 200.00 mA
+potencia_salida: 602.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":3.04,"corriente_s":200.00,"potencia_s":602.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:47:31
+voltage_real_entrada: 3.31 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 194.50 mA
+potencia_salida: 590.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.04,"corriente_s":194.50,"potencia_s":590.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:47:46
+voltage_real_entrada: 3.30 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.03 V
+corriente_salida: 199.80 mA
+potencia_salida: 600.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.03,"corriente_s":199.80,"potencia_s":600.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:48:1
+voltage_real_entrada: 3.31 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.04 V
+corriente_salida: 192.10 mA
+potencia_salida: 580.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.31,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.04,"corriente_s":192.10,"potencia_s":580.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:48:16
+voltage_real_entrada: 3.30 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.02 V
+corriente_salida: 201.30 mA
+potencia_salida: 602.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":3.02,"corriente_s":201.30,"potencia_s":602.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:48:31
+voltage_real_entrada: 3.30 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.03 V
+corriente_salida: 189.30 mA
+potencia_salida: 574.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.30,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.03,"corriente_s":189.30,"potencia_s":574.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:48:46
+voltage_real_entrada: 3.29 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 3.01 V
+corriente_salida: 208.50 mA
+potencia_salida: 616.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.29,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":3.01,"corriente_s":208.50,"potencia_s":616.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:49:1
+voltage_real_entrada: 3.21 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:49:16
+voltage_real_entrada: 3.21 V
+corriente_entrada: 0.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.60 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":0.70,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.60,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:49:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.10,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:49:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:50:1
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:50:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:50:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:50:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: -1
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:51:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:51:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:51:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:51:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.10,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:52:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:52:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:52:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:52:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.50,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:53:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:53:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:53:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.10,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:53:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:54:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:54:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.10,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:54:31
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:54:46
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:55:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:55:16
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:55:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:55:46
+voltage_real_entrada: 3.21 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:56:1
+voltage_real_entrada: 3.23 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:56:16
+voltage_real_entrada: 3.23 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:56:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:56:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:57:1
+voltage_real_entrada: 3.24 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.24,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:57:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.40 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.40,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:57:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:57:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:58:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:58:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:58:31
+voltage_real_entrada: 3.21 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.30 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.30,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:58:46
+voltage_real_entrada: 3.21 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 6.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.50 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":1.30,"potencia_e":6.00,"voltage_s":0.00,"corriente_s":1.50,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:59:1
+voltage_real_entrada: 3.21 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:59:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:59:31
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 14:59:46
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:0:1
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:0:16
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:0:31
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.10,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:0:46
+voltage_real_entrada: 3.24 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.30 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.24,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.30,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:1:1
+voltage_real_entrada: 3.24 V
+corriente_entrada: 1.50 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.30 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.24,"corriente_e":1.50,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.30,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:1:16
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.10,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:1:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.01 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.01,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:1:46
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.30 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.30,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:2:1
+voltage_real_entrada: 3.21 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.10,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:2:16
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 1.10 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":1.10,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:2:31
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.10 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":1.10,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:2:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":1.30,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:3:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:3:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:3:31
+voltage_real_entrada: 3.23 V
+corriente_entrada: 0.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.40 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":0.70,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.40,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:3:46
+voltage_real_entrada: 3.21 V
+corriente_entrada: 0.20 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":0.20,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:4:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.70,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:4:16
+voltage_real_entrada: 3.21 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.60 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.21,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.60,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:4:31
+voltage_real_entrada: 3.23 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:4:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.70 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.60 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.70,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.60,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:5:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.60 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.60,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:5:16
+voltage_real_entrada: 3.23 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:5:31
+voltage_real_entrada: 3.23 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 0.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":0.60,"potencia_e":0.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:5:46
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.60 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.60,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:6:1
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.60 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.60,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:6:16
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.70 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.70,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:6:31
+voltage_real_entrada: 3.22 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.60 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.22,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.60,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:6:46
+voltage_real_entrada: 3.23 V
+corriente_entrada: 0.90 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
+GET ORDENES HTTP: 404
+ERROR AL OBTENER ORDENES
+POST HTTP: 200
+JSON enviado: {"voltage_e":3.23,"corriente_e":0.90,"potencia_e":4.00,"voltage_s":0.00,"corriente_s":0.90,"potencia_s":0.00}
+
+========== MEDICIONES ==========
+Nucleo: 1
+Hora: 1/1/2000 15:7:1
+voltage_real_entrada: 3.23 V
+corriente_entrada: 1.30 mA
+potencia_entrada: 4.00 mW
+voltage_real_salida: 0.00 V
+corriente_salida: 0.90 mA
+potencia_salida: 0.00 mW
+DATOS GUARDADOS EN MICRO SD
