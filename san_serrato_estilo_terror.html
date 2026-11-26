@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#080707">
+
+  <title>Penitenciaría San Serrato | Sistema de monitoreo</title>
+
+  <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Creepster&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+:root{--negro:#080707;--panel:#151010;--panel2:#1d1414;--sangre:#8f0f0f;--sangre-viva:#d11a1a;--hueso:#eee5d6;--ceniza:#aaa09a;--borde:#493030;--max:#59c878;--min:#ed5555;--ancho:1160px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:88px}
+body{margin:0;background:var(--negro);color:var(--hueso);font-family:"IBM Plex Sans",Arial,sans-serif;line-height:1.65;position:relative;min-height:100vh}
+body:before{content:"";position:fixed;inset:0;z-index:20;pointer-events:none;opacity:.09;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.7'/%3E%3C/svg%3E")}
+body:after{content:"";position:fixed;inset:0;z-index:19;pointer-events:none;background:radial-gradient(ellipse at center,transparent 45%,rgba(0,0,0,.76) 100%)}
+a{color:inherit;text-decoration:none}
+.container{width:min(var(--ancho),calc(100% - 42px));margin-inline:auto}
+.topbar{position:sticky;top:0;z-index:15;background:rgba(8,7,7,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--borde);box-shadow:0 5px 24px #0008}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:22px}
+.brand{font:2rem "Bebas Neue",Impact,sans-serif;letter-spacing:.08em;color:var(--hueso);text-shadow:0 0 14px #a20f0f88}
+.brand span{color:var(--sangre-viva)}
+nav{display:flex;align-items:center;gap:clamp(12px,2vw,26px)}
+nav a{font-size:.86rem;color:var(--ceniza);transition:.2s}
+nav a:hover{color:var(--hueso);text-shadow:0 0 10px #d11a1a}
+.menu-toggle{display:none;background:var(--sangre);color:white;border:1px solid var(--sangre-viva);padding:7px 12px;font-size:1.2rem}
+main{position:relative;z-index:1;overflow:hidden}
+.hero{min-height:590px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:55px;padding-block:86px}
+.eyebrow{color:#df7770;text-transform:uppercase;letter-spacing:.17em;font-size:.72rem;font-weight:700;margin:0 0 15px}
+h1,h2,h3{margin-top:0;color:var(--hueso)}
+h1{font:clamp(3rem,6vw,5.4rem)/.99 "Creepster","Bebas Neue",Impact,sans-serif;letter-spacing:.035em;text-shadow:0 0 22px #b3131380,0 3px #000;animation:flicker 7s infinite}
+h1 span{color:#d2c2b2}
+h2{font:clamp(2.1rem,4vw,3.3rem)/1.05 "Bebas Neue",Impact,sans-serif;letter-spacing:.045em}
+h3{font:1.55rem "Bebas Neue",Impact,sans-serif;letter-spacing:.04em;margin-bottom:10px}
+p{color:#c4bab1}
+.hero-text{max-width:650px;font-size:1.08rem}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin:28px 0}
+.button{display:inline-flex;align-items:center;justify-content:center;padding:12px 19px;border:1px solid var(--sangre-viva);font-weight:600;font-size:.9rem;transition:.2s}
+.button.primary{background:var(--sangre);color:white;box-shadow:0 5px 20px #900f0f44}
+.button.secondary{background:#171111;color:var(--hueso);border-color:var(--borde)}
+.button:hover{background:var(--sangre-viva);transform:translateY(-2px)}
+.tech-list{display:flex;gap:8px;flex-wrap:wrap}
+.tech-list span{font-size:.76rem;color:var(--ceniza);border:1px solid var(--borde);background:#140e0e;padding:5px 10px}
+.hero-panel{position:relative;padding:28px;background:linear-gradient(145deg,#241515,#100c0c);border:1px solid #653333;box-shadow:0 22px 60px #0009,inset 0 0 35px #8f0f0f12}
+.hero-panel:before{content:"";position:absolute;inset:8px;border:1px solid #ffffff0c;pointer-events:none}
+.panel-top,.panel-footer{display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:.72rem;letter-spacing:.08em;color:var(--ceniza)}
+.live-dot{width:8px;height:8px;border-radius:50%;background:#d11a1a;display:inline-block;box-shadow:0 0 12px #e11}
+.panel-label,.status{color:#df7770}
+.metric-preview{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:38px 0}
+.metric-preview>div{padding:19px;background:#0b0909;border:1px solid var(--borde)}
+.metric-preview small{display:block;color:var(--ceniza);font-size:.75rem}
+.metric-preview strong{display:block;font:2.4rem "Bebas Neue";color:var(--hueso)}
+.signal{padding:22px 18px;background:#0b0909;border:1px solid var(--borde)}
+.signal-line{height:2px;margin:13px 0;background:linear-gradient(90deg,transparent,var(--sangre-viva),#e9b0a4,transparent);box-shadow:0 0 10px #d11a1a}
+.signal-line.short{width:68%;margin-left:16%}
+.signal-caption{text-align:center;color:var(--ceniza);font-size:.75rem;margin-top:20px}
+.panel-footer{margin-top:24px}
+.section{padding:90px 0;position:relative}
+.section-dark{background:linear-gradient(110deg,#100b0b,#171010 50%,#0d0909);border-block:1px solid #2d1a1a}
+.section-heading{max-width:780px;margin-bottom:38px}
+.section-heading>p:last-child{font-size:1rem}
+.cards{display:grid;gap:17px}
+.cards.three{grid-template-columns:repeat(3,1fr)}
+.info-card,.content-card,.arch-step,.chart-card,.highlight{background:linear-gradient(145deg,#1a1212,#100c0c);border:1px solid var(--borde);padding:25px;box-shadow:0 12px 30px #0005}
+.info-card{border-top:3px solid var(--sangre)}
+.card-icon,.arch-icon{font-size:2rem;color:#d94a43;margin-bottom:12px}
+.info-card p,.content-card p,.arch-step p{font-size:.92rem}
+.architecture{display:flex;align-items:stretch;gap:12px}
+.arch-step{flex:1;position:relative;min-width:0}
+.step-index{color:#df7770;font:1.4rem "Bebas Neue"}
+.arch-step small{color:#d97770;font-size:.75rem}
+.arch-arrow{align-self:center;color:var(--sangre-viva);font-size:1.6rem}
+.architecture-note{margin-top:22px;padding:18px;border-left:3px solid var(--sangre);background:#1a1010;color:var(--ceniza);font-size:.9rem}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.check-list{padding-left:20px;color:#c9beb6}
+.check-list li{padding:6px 0}
+.check-list li::marker{color:var(--sangre-viva)}
+.formula-card{background:linear-gradient(145deg,#211414,#100c0c)}
+.formula{padding:13px 15px;margin:16px 0 8px;background:#090707;border-left:3px solid var(--sangre-viva);font:1.35rem "Bebas Neue";letter-spacing:.04em;color:#f0dcd0;overflow-wrap:anywhere}
+.highlight{margin-top:22px;border-left:4px solid var(--sangre-viva)}
+.highlight strong{font:1.3rem "Bebas Neue";color:#e47770}
+.footnote,.muted{font-size:.8rem;color:#918680}
+.chart-card{margin-top:28px}
+.chart-heading{display:flex;align-items:center;justify-content:space-between;gap:15px}
+.chart-heading h3{font-size:1.8rem}
+.demo-label{font-size:.72rem;color:#e47770;border:1px solid var(--borde);padding:6px 10px}
+#comparisonChart{max-height:280px}
+.chart-legend{display:flex;gap:22px;flex-wrap:wrap;font-size:.8rem;color:var(--ceniza);margin-top:14px}
+.legend-dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:7px}
+.legend-dot.cyan{background:#d64b45}.legend-dot.green{background:#d8b99d}
+.dashboard-links{display:grid;gap:12px}
+.dashboard-links>a{display:flex;align-items:center;gap:18px;padding:18px 20px;background:#171010;border:1px solid var(--borde);transition:.2s}
+.dashboard-links>a:hover{border-color:var(--sangre-viva);background:#211111;transform:translateX(4px)}
+.dashboard-links>a>span{font:1.5rem "Bebas Neue";color:#d65a53}
+.dashboard-links>a div{flex:1}
+.dashboard-links strong,.dashboard-links small{display:block}
+.dashboard-links small{color:var(--ceniza);font-size:.8rem}
+.dashboard-links b{color:#e47770}
+.closing{max-width:850px;text-align:center;padding-block:20px}
+.closing p:not(.eyebrow){font-size:1.02rem;margin:25px auto 30px}
+footer{position:relative;z-index:1;text-align:center;padding:27px 15px;border-top:1px solid var(--borde);background:#090707;color:var(--ceniza);font:1rem "Bebas Neue";letter-spacing:.12em}
+footer span{color:var(--sangre-viva)}
+@keyframes flicker{0%,17%,19%,22%,60%,63%,100%{opacity:1}18%,21%,61%{opacity:.35}20%{opacity:.8}62%{opacity:.5}}
+@media(max-width:900px){.hero{gap:28px;min-height:auto;padding-block:65px}.architecture{display:grid;grid-template-columns:1fr 1fr}.arch-arrow{display:none}.cards.three{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.container{width:min(100% - 30px,var(--ancho))}.nav{min-height:64px}.menu-toggle{display:block}nav{display:none;position:absolute;top:64px;left:0;right:0;padding:18px 22px;background:#100b0b;border-bottom:1px solid var(--borde);flex-direction:column;align-items:flex-start}nav.open{display:flex}.hero{grid-template-columns:1fr;padding-block:55px}.hero-panel{margin-top:8px}.section{padding:65px 0}.cards.three,.two-col,.architecture{grid-template-columns:1fr}.chart-heading{align-items:flex-start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+</style>
+
+</head>
+
+<body>
+
+  <header class="topbar">
+
+    <div class="container nav">
+
+      <a class="brand" href="#inicio">SAN <span>SERRATO</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+      <nav id="mainNav">
+
+        <a href="#proyecto">El proyecto</a>
+
+        <a href="#sistema">Cómo funciona</a>
+
+        <a href="#procesamiento">Procesamiento</a>
+
+        <a href="#analisis">Análisis</a>
+
+        <a href="#resultados">Resultados</a>
+
+        <a href="#dashboard">Dashboard</a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="hero container" id="inicio">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">Proyecto tecnológico · Corte 3</p>
+
+        <h1>Monitoreo energético de la <span>Penitenciaría San Serrato</span></h1>
+
+        <p class="hero-text">Una maqueta automatizada que integra electrónica, programación y una plataforma web para observar el comportamiento eléctrico de sus componentes.</p>
+
+        <div class="hero-actions">
+
+          <a class="button primary" href="index.html">Conocer el proyecto</a>
+
+          <a class="button secondary" href="dashboard.html" target="_blank" rel="noopener">Ver dashboard ↗</a>
+
+        </div>
+
+        <div class="tech-list">
+
+          <span>Arduino / ESP32</span><span>INA219</span><span>JavaScript</span><span>Node.js</span><span>Render</span>
+
+        </div>
+
+      </div>
+
+      <div class="hero-panel">
+
+        <div class="panel-top"><span class="live-dot"></span> SISTEMA DE SUPERVISIÓN <span class="panel-label">SAN SERRATO</span></div>
+
+        <div class="metric-preview">
+
+          <div><small>Variables medidas</small><strong>V · A · W</strong></div>
+
+          <div><small>Control</small><strong>ESP32</strong></div>
+
+        </div>
+
+        <div class="signal">
+
+          <div class="signal-line"></div><div class="signal-line short"></div><div class="signal-line"></div>
+
+          <div class="signal-caption">Captura · envío · consulta</div>
+
+        </div>
+
+        <div class="panel-footer"><span>Electrónica conectada</span><span class="status">Arquitectura del proyecto</span></div>
+
+      </div>
+
+    </section>
+
+    <section class="section" id="proyecto">
+
+      <div class="container">
+
+        <div class="section-heading"><p class="eyebrow">01 · Presentación</p><h2>¿En qué consiste?</h2><p>San Serrato es una maqueta de una penitenciaría con mecanismos automatizados. El sistema electrónico permite controlar componentes de la maqueta y observar el consumo eléctrico asociado a su funcionamiento.</p></div>
+
+        <div class="cards three">
+
+          <article class="info-card"><div class="card-icon">⌁</div><h3>Automatización</h3><p>El Arduino/ESP32 controla los componentes electrónicos y los servomotores que forman parte de la maqueta.</p></article>
+
+          <article class="info-card"><div class="card-icon">ϟ</div><h3>Medición eléctrica</h3><p>Los sensores INA219 registran valores como voltaje, corriente y potencia en los puntos de medición.</p></article>
+
+          <article class="info-card"><div class="card-icon">▥</div><h3>Supervisión web</h3><p>Los datos pueden consultarse desde una interfaz web para revisar las mediciones y su comportamiento.</p></article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section section-dark" id="sistema">
+
+      <div class="container">
+
+        <div class="section-heading"><p class="eyebrow">02 · Arquitectura</p><h2>Así se comunica el sistema</h2><p>El ESP32 realiza la lectura de los sensores, conserva los datos que el programa tenga configurados para almacenamiento local y envía la información al servicio web para su consulta.</p></div>
+
+        <div class="architecture">
+
+          <article class="arch-step"><span class="step-index">01</span><div class="arch-icon">⌘</div><h3>Arduino / ESP32</h3><p>Ejecuta el programa de control, recibe las lecturas y puede mantener registros en la memoria disponible del dispositivo.</p><small>Control y captura</small></article>
+
+          <div class="arch-arrow">→</div>
+
+          <article class="arch-step"><span class="step-index">02</span><div class="arch-icon">ϟ</div><h3>Sensores INA219</h3><p>Miden las variables eléctricas de entrada y salida para conocer el comportamiento de la alimentación.</p><small>Voltaje · corriente · potencia</small></article>
+
+          <div class="arch-arrow">→</div>
+
+          <article class="arch-step"><span class="step-index">03</span><div class="arch-icon">JS</div><h3>API con Node.js</h3><p>Recibe las mediciones del dispositivo y organiza la comunicación entre el hardware y la aplicación web.</p><small>Backend / API</small></article>
+
+          <div class="arch-arrow">→</div>
+
+          <article class="arch-step"><span class="step-index">04</span><div class="arch-icon">WEB</div><h3>Render y dashboard</h3><p>El servicio se despliega en Render y la interfaz permite consultar los registros y sus representaciones.</p><small>Servicio publicado</small></article>
+
+        </div>
+
+        <div class="architecture-note"><strong>Almacenamiento:</strong> el ESP32 puede conservar información localmente según la memoria y la lógica implementadas. El servicio Node.js recibe y gestiona los datos para que estén disponibles en la plataforma. Node.js es el entorno del backend, no un motor de base de datos.</div>
+
+      </div>
+
+    </section>
+
+    <section class="section" id="procesamiento">
+
+      <div class="container">
+
+        <div class="section-heading"><p class="eyebrow">03 · De las lecturas a la información</p><h2>Preparación y procesamiento de los datos</h2><p>Para estudiar el comportamiento energético, las lecturas deben organizarse y convertirse en variables que faciliten su interpretación. En este proyecto, el procesamiento se plantea con JavaScript.</p></div>
+
+        <div class="two-col">
+
+          <article class="content-card"><h3>Organización de las mediciones</h3><ul class="check-list"><li>Recibir los registros de voltaje y corriente.</li><li>Separar las mediciones de entrada y salida.</li><li>Calcular la potencia eléctrica a partir de los valores medidos.</li><li>Revisar datos incompletos, valores atípicos o lecturas inestables.</li><li>Ordenar las mediciones para analizarlas por tiempo.</li></ul></article>
+
+          <article class="content-card formula-card"><h3>Relaciones eléctricas utilizadas</h3><div class="formula">P = V × I</div><p>La potencia se obtiene multiplicando el voltaje por la corriente.</p><div class="formula">E = P × t</div><p>La energía se estima a partir de la potencia y el tiempo de funcionamiento.</p><div class="formula">V = I × R</div><p>La ley de Ohm relaciona voltaje, corriente y resistencia.</p></article>
+
+        </div>
+
+        <div class="highlight"><strong>¿Por qué es importante?</strong><p>Una lectura aislada muestra un valor en un instante. Al organizar varias lecturas se pueden reconocer tendencias, cambios en el consumo y diferencias entre la entrada y la salida del sistema.</p></div>
+
+      </div>
+
+    </section>
+
+    <section class="section section-dark" id="analisis">
+
+      <div class="container">
+
+        <div class="section-heading"><p class="eyebrow">04 · Comportamiento eléctrico</p><h2>Evaluación del rendimiento</h2><p>El análisis compara las magnitudes medidas para identificar qué parte de la energía llega a la salida y qué diferencias aparecen durante el funcionamiento.</p></div>
+
+        <div class="two-col">
+
+          <article class="content-card"><h3>Aspectos que se estudian</h3><ul class="check-list"><li>Rendimiento del convertidor o etapa de alimentación.</li><li>Diferencia entre valores teóricos y valores medidos.</li><li>Variación del voltaje durante el funcionamiento.</li><li>Posibles pérdidas y caídas de tensión.</li><li>Comportamiento de la batería y estimación de autonomía, si se dispone de registros suficientes.</li></ul></article>
+
+          <article class="content-card formula-card"><h3>Fórmulas de referencia</h3><div class="formula">η = (P salida / P entrada) × 100</div><p>La eficiencia expresa qué porcentaje de la potencia de entrada se obtiene a la salida.</p><div class="formula">Error % = |Real − Teórico| / |Teórico| × 100</div><p>El error porcentual cuantifica la diferencia respecto al valor teórico.</p><div class="formula">ΔV = V entrada − V salida</div><p>La diferencia de voltaje permite observar una posible caída de tensión.</p></article>
+
+        </div>
+
+        <p class="footnote">Las fórmulas se aplican a mediciones tomadas en condiciones comparables. La autonomía solo puede estimarse con información suficiente sobre la batería y el consumo a lo largo del tiempo.</p>
+
+      </div>
+
+    </section>
+
+    <section class="section" id="resultados">
+
+      <div class="container">
+
+        <div class="section-heading"><p class="eyebrow">05 · Interpretación</p><h2>Visualización y validación</h2><p>Las gráficas y los resúmenes estadísticos permiten explicar los datos de forma clara y comprobar si las mediciones mantienen un comportamiento estable.</p></div>
+
+        <div class="two-col">
+
+          <article class="content-card"><h3>¿Qué muestran las gráficas?</h3><ul class="check-list"><li>Comparación de curvas teóricas y reales.</li><li>Cambios de voltaje, corriente y potencia a través del tiempo.</li><li>Momentos en los que aparecen picos o caídas.</li><li>Diferencias entre la medición de entrada y la de salida.</li></ul></article>
+
+          <article class="content-card"><h3>Estabilidad del voltaje</h3><div class="formula">σ = √[ Σ(xᵢ − μ)² / N ]</div><p>La desviación estándar indica cuánto se dispersan las lecturas respecto al promedio. Un valor bajo representa lecturas más agrupadas, aunque siempre debe interpretarse según las condiciones de operación.</p><p class="muted">Los resúmenes pueden incluir promedio, mínimo, máximo y desviación estándar.</p></article>
+
+        </div>
+
+        <div class="chart-card">
+
+          <div class="chart-heading"><div><span class="eyebrow">Ejemplo visual</span><h3>Comparación de valores</h3></div><span class="demo-label">Datos ilustrativos</span></div>
+
+          <canvas id="comparisonChart" height="220" aria-label="Gráfico ilustrativo de comparación"></canvas>
+
+          <div class="chart-legend"><span><i class="legend-dot cyan"></i>Valor teórico</span><span><i class="legend-dot green"></i>Valor medido</span></div>
+
+          <p class="footnote">Gráfico demostrativo para explicar el tipo de comparación. No representa resultados reales ni sustituye las mediciones registradas por el proyecto.</p>
+
+        </div>
+
+        <div class="highlight"><strong>Documentación técnica</strong><p>El proceso debe quedar explicado y reproducible: origen de los datos, operaciones realizadas, fórmulas utilizadas, gráficas y conclusiones obtenidas.</p></div>
+
+      </div>
+
+    </section>
+
+    <section class="section section-dark" id="dashboard">
+
+      <div class="container">
+
+        <div class="section-heading"><p class="eyebrow">06 · Demostración del sistema</p><h2>La plataforma en funcionamiento</h2><p>Desde el dashboard se puede mostrar la información que recibe el sistema y cómo se presenta al usuario.</p></div>
+
+        <div class="dashboard-links">
+
+          <a href="index.html" target="_blank" rel="noopener"><span>01</span><div><strong>Dashboard principal</strong><small>Vista general del proyecto</small></div><b>↗</b></a>
+
+          <a href="mediciones.html" target="_blank" rel="noopener"><span>02</span><div><strong>Mediciones</strong><small>Consulta de variables eléctricas</small></div><b>↗</b></a>
+
+          <a href="graficas.html" target="_blank" rel="noopener"><span>03</span><div><strong>Gráficas</strong><small>Representación de los registros</small></div><b>↗</b></a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="section" id="cierre">
+
+      <div class="container closing">
+
+        <p class="eyebrow">07 · Conclusión</p>
+
+        <h2>Una integración entre hardware y software</h2>
+
+        <p>La Penitenciaría San Serrato reúne el control electrónico de una maqueta, la medición de variables eléctricas y una plataforma web para consultar la información. El uso de JavaScript y Node.js permite gestionar los datos y conectarlos con el dashboard, mientras que el análisis de las mediciones ayuda a comprender el rendimiento y la estabilidad del sistema.</p>
+
+        <a class="button primary" href="#inicio">Volver al inicio ↑</a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer><div class="container">PENITENCIARÍA SAN SERRATO <span>·</span> Exposición académica</div></footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
