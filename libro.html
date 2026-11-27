@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Penitenciaría San Serrato</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f5f6f2;--surf:#fff;--ink:#14202b;--mute:#566574;--line:#d9ddd5;--navy:#0e2a3b;--navy2:#143a50;--sun:#f0a500;--sun-ink:#7a5200;--teal:#0f7c86;--soft:#eaf1ef;--on-navy:#e9f1f4;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#0b1620;--surf:#122431;--ink:#e6edf1;--mute:#9bb0bd;--line:#244052;--navy:#071119;--navy2:#0f2a3a;--sun:#f5b82e;--sun-ink:#f5b82e;--teal:#4fc1cb;--soft:#10303a;--on-navy:#e9f1f4;color-scheme:dark}}
+:root[data-theme=dark]{--bg:#0b1620;--surf:#122431;--ink:#e6edf1;--mute:#9bb0bd;--line:#244052;--navy:#071119;--navy2:#0f2a3a;--sun:#f5b82e;--sun-ink:#f5b82e;--teal:#4fc1cb;--soft:#10303a;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 16.5px/1.65 "IBM Plex Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"Bricolage Grotesque","IBM Plex Sans",sans-serif;line-height:1.1;margin:0;letter-spacing:-.01em}
+a{color:var(--teal)}
+.cover{background:var(--navy);color:var(--on-navy);padding:clamp(32px,6vw,72px) clamp(20px,6vw,80px) 0;position:relative;overflow:hidden}
+.cover:before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,transparent 0 59px,rgba(255,255,255,.05) 59px 60px),repeating-linear-gradient(0deg,transparent 0 59px,rgba(255,255,255,.05) 59px 60px);pointer-events:none}
+.cover>*{position:relative;max-width:1100px;margin-inline:auto}
+.inst{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;font-size:15px;border-bottom:1px solid rgba(255,255,255,.2);padding-bottom:14px}
+.inst b{font-weight:600}
+.cover h1{font-size:clamp(40px,8vw,92px);font-weight:800;margin:clamp(28px,5vw,56px) 0 18px;color:#fff}
+.cover h1+p{font:500 clamp(17px,2.2vw,24px)/1.35 "Bricolage Grotesque",sans-serif;max-width:30ch;color:var(--sun);margin:0 0 36px}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:0;border-top:1px solid rgba(255,255,255,.2)}
+.meta>div{padding:18px 20px 20px 0;font-size:15px}
+.meta h3{font:600 14px "IBM Plex Sans";color:var(--sun);margin-bottom:6px;letter-spacing:0}
+.meta ul{margin:0;padding:0;list-style:none}
+.flow{display:flex;gap:0;overflow-x:auto;margin-top:8px;background:var(--navy2);border-radius:14px 14px 0 0;padding:20px;scrollbar-width:thin}
+.flow span{flex:0 0 auto;padding:10px 14px;border:1.5px solid var(--sun);border-radius:8px;font-weight:600;font-size:14px;color:#fff;white-space:nowrap}
+.flow i{flex:0 0 28px;align-self:center;height:2px;background:var(--sun);position:relative}
+.flow i:after{content:"";position:absolute;right:-1px;top:-4px;border:5px solid transparent;border-left:7px solid var(--sun);border-right:0}
+.flow span.s{background:var(--sun);color:#1a1200;border-color:var(--sun)}
+.date{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;font-size:14px;color:var(--mute);max-width:1100px;margin:0 auto;padding:14px clamp(20px,6vw,80px)}
+main{max-width:1100px;margin:0 auto;padding:0 clamp(20px,6vw,80px) 80px}
+section{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:clamp(20px,5vw,64px);padding:56px 0;border-top:1px solid var(--line)}
+section>h2{font-size:clamp(24px,3vw,32px);font-weight:700;position:sticky;top:20px;align-self:start;padding-top:2px}
+section>h2:before{content:"";display:block;width:36px;height:5px;background:var(--sun);border-radius:3px;margin-bottom:14px}
+.body{max-width:68ch}
+.body p{margin:0 0 1.1em}
+h3.sub{font-size:21px;font-weight:700;margin:1.8em 0 .6em;color:var(--teal)}
+h3.sub:first-child{margin-top:0}
+.lead{font-size:19px;line-height:1.6}
+.goal{background:var(--navy);color:var(--on-navy);border-radius:14px;padding:24px 26px;border-left:6px solid var(--sun);margin:0 0 8px}
+.goal p{margin:0}
+ol.n{list-style:none;counter-reset:c;padding:0;margin:0}
+ol.n>li{counter-increment:c;position:relative;padding:0 0 22px 52px;margin:0}
+ol.n>li:before{content:counter(c);position:absolute;left:0;top:0;width:36px;height:36px;border-radius:50%;background:var(--sun);color:#1a1200;font:700 17px/36px "Bricolage Grotesque";text-align:center}
+ol.n>li:not(:last-child):after{content:"";position:absolute;left:17px;top:40px;bottom:4px;width:2px;background:var(--line)}
+ol.n p{margin:.7em 0 0}
+.parts{display:grid;gap:12px;padding:0;margin:0;list-style:none}
+.parts li{background:var(--surf);border:1px solid var(--line);border-left:5px solid var(--teal);border-radius:10px;padding:16px 18px}
+.parts b{display:block;font:700 17px "Bricolage Grotesque";margin-bottom:4px}
+ul.bul{padding:0;margin:0 0 1.1em;list-style:none}
+ul.bul>li{background:var(--surf);border:1px solid var(--line);border-radius:10px;padding:14px 18px;margin-bottom:10px}
+.note{background:var(--soft);border-radius:10px;padding:14px 18px;margin:12px 0}
+.note p{margin:0 0 .8em}.note p:last-child{margin:0}
+.cta{display:inline-block;background:var(--sun);color:#1a1200;font-weight:600;text-decoration:none;padding:12px 22px;border-radius:999px;margin:4px 0 20px}
+.cta:hover{filter:brightness(1.07)}
+.cta:focus-visible,a:focus-visible{outline:3px solid var(--teal);outline-offset:3px}
+.chk{list-style:none;padding:0;margin:0}
+.chk li{position:relative;padding:0 0 18px 40px}
+.chk li:before{content:"";position:absolute;left:0;top:3px;width:24px;height:24px;border-radius:50%;background:var(--teal)}
+.chk li:after{content:"";position:absolute;left:8px;top:8px;width:6px;height:11px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg)}
+.chk li:last-child{background:var(--soft);border-radius:10px;padding:16px 18px 16px 52px;margin-top:6px}
+.chk li:last-child:before{left:14px;top:19px;background:var(--sun)}
+.chk li:last-child:after{left:22px;top:24px;border-color:#1a1200}
+.foot{text-align:center;color:var(--mute);font-size:14px;padding:28px 20px;border-top:1px solid var(--line)}
+@media(max-width:820px){section{grid-template-columns:1fr;gap:20px;padding:40px 0}section>h2{position:static}}
+@media print{.cover,.goal{-webkit-print-color-adjust:exact;print-color-adjust:exact}section>h2{position:static}}
+</style></head>
+<body>
+<header class="cover">
+<div class="inst"><b>COLEGIO MAYOR DEL CAUCA</b><span>Programa de Ingeniería Multimedia</span></div>
+<h1>PENITENCIARÍA SAN SERRATO</h1>
+<p>Maqueta a escala de una cárcel con sistema de gestión energética solar, monitoreo y automatización</p>
+<div class="meta">
+<div><h3>Asignatura</h3>Física Electromagnética</div>
+<div><h3>Integrantes</h3><ul><li>Andrés Felipe Villota Paz</li><li>Laura Sofía Coral Luna</li><li>Gean Marcos Figueroa Alegra</li><li>Jhon Steban Serrato Rojas</li></ul></div>
+<div><h3>Docente</h3>Stivens Antonio Dionizio Solarte</div>
+</div>
+<div class="flow" aria-hidden="true"><span class="s">Panel solar</span><i></i><span>INA219</span><i></i><span>TP4056</span><i></i><span>INA219</span><i></i><span>XL6009</span><i></i><span class="s">ESP32</span></div>
+</header>
+<div class="date"><span>27 de noviembre de 2026</span><span>POPAYÁN, CAUCA</span></div>
+<main>
+
+<section><h2>1. Introducción: descripción general del proyecto de la cárcel</h2><div class="body">
+<p class="lead">Construimos una maqueta a escala de una cárcel que integra un sistema electrónico de suministro, monitoreo y gestión energética.</p>
+<p>El propósito es representar, en un entorno simulado, aplicaciones reales de la electrónica y la física electromagnética: cómo se genera energía con el sol, cómo se almacena, cómo se mide y cómo se controla de forma automática.</p>
+<p>Para lograrlo, el proyecto combina energías renovables, medición eléctrica, programación y automatización en un prototipo funcional.</p>
+<p>Además, incluye un sistema de monitoreo del consumo eléctrico en diferentes ambientes y periodos de tiempo, que permite recopilar, almacenar y analizar datos mediante plataformas digitales.</p>
+<p>Este sistema fue desarrollado con códigos de programación elaborados desde cero, con apoyo de agentes de inteligencia artificial para la revisión, corrección y optimización.</p>
+</div></section>
+
+<section><h2>2. Objetivos</h2><div class="body">
+<h3 class="sub">Objetivo general</h3>
+<div class="goal"><p>Diseñar y construir una maqueta a escala de una cárcel mediante la integración de componentes electrónicos, sistemas de alimentación con energía solar, sensores de medición y herramientas de programación, con el propósito de monitorear, registrar y analizar el consumo eléctrico en diferentes ambientes y periodos de tiempo, aplicando los principios de la física electromagnética y apoyándose en plataformas digitales y agentes de inteligencia artificial durante el desarrollo e implementación del sistema.</p></div>
+<h3 class="sub">Objetivos específicos</h3>
+<ol class="n">
+<li><p>Integrar los componentes electrónicos, como la ESP32, los sensores INA219, el panel solar y la batería de litio, en la estructura de la maqueta, con el fin de implementar un sistema funcional de alimentación, medición y control eléctrico.</p></li>
+<li><p>Monitorear el consumo y las variables eléctricas en diferentes ambientes de la maqueta y durante distintos periodos de tiempo, mediante los sensores INA219, con el propósito de identificar y analizar el comportamiento energético del sistema.</p></li>
+<li><p>Implementar un sistema de recopilación, almacenamiento y visualización de datos mediante módulos electrónicos y plataformas digitales, utilizando códigos de programación desarrollados desde cero con apoyo de agentes de inteligencia artificial.</p></li>
+<li><p>Aplicar los principios de la física electromagnética relacionados con la generación, transferencia, almacenamiento y medición de energía eléctrica, mediante la construcción y puesta en funcionamiento de la maqueta.</p></li>
+<li><p>Evaluar el funcionamiento del sistema electrónico implementado, considerando la medición del consumo energético, el almacenamiento de datos y la respuesta de los elementos de señalización y control, con el fin de identificar el desempeño general del prototipo.</p></li>
+</ol></div></section>
+
+<section><h2>3. Descripción de la maqueta</h2><div class="body">
+<p class="lead">La maqueta consiste en un sistema de generación, almacenamiento, regulación y monitoreo de energía solar controlado por un microcontrolador ESP32. El diseño permite medir tanto la energía generada por el panel solar como la energía entregada al sistema de carga.</p>
+<h3 class="sub">Elementos que componen la maqueta</h3>
+<ul class="parts">
+<li><b>Panel solar (fuente de entrada)</b>Celda solar de corriente continua (DC) con terminales positivo (+) y negativo (-), típicamente de 5V nominales para trabajar dentro del rango de entrada del cargador.</li>
+<li><b>Sensores de corriente y voltaje INA219</b>Módulos bidireccionales basados en comunicación I2C que miden el voltaje, la corriente y la potencia en dos puntos críticos: uno a la salida del panel solar y otro a la salida del controlador de carga.</li>
+<li><b>Módulo cargador TP4056</b>Controlador (CC/CV) para celdas de litio con circuito de protección contra sobrecarga, sobredescarga y cortocircuito, provista de terminales de entrada (IN+, IN-), conexión de batería (B+, B-) y salida de carga (OUT+, OUT-).</li>
+<li><b>Batería de litio 18650</b>Celda cilíndrica de 3.7V nominales (4.2V de carga máxima) encargada del almacenamiento energético para respaldar el sistema en ausencia de luz solar.</li>
+<li><b>Convertidor elevador (Step-Up) XL6009</b>Módulo regulador ajustable con entradas (IN+/IN-) y salidas (OUT+/OUT-) que toma el voltaje variable de la etapa de batería (entre 3.0 V y 4.2V) y lo eleva a una tensión estable (generalmente 5V) para alimentar adecuadamente el pin VIN del microcontrolador.</li>
+<li><b>Microcontrolador ESP32</b>Unidad central encargado del control lógico, alimentación de los sensores (3V y GND), recepción de potencia (VIN y GND) y recibe sus lecturas telemétricas a través de los pines del bus I2C (GPIO 21 y GPIO 22) para su procesamiento o transmisión.</li>
+<li><b>Diodo LED</b>Indicador luminoso de estado conectado a una salida digital del ESP32 para señalización visual en la maqueta.</li>
+</ul></div></section>
+
+<section><h2>4. Funcionamiento y descripción técnica del sistema</h2><div class="body">
+<h3 class="sub">4.1. Etapa de potencia, carga y regulación</h3>
+<p>Esta etapa garantiza que la energía captada sea almacenada de forma segura y acondicionada para alimentar la electrónica digital sin interrupciones:</p>
+<ol class="n">
+<li><p><b>Generación fotovoltaica:</b> Cuando la luz incide sobre el panel solar, este genera una diferencia de potencial en corriente continua (DC) entre su terminal positivo (+, cable rojo) y negativo (-, cable negro). El voltaje y la corriente entregados fluctúan constantemente según la intensidad de la radiación solar.</p></li>
+<li><p><b>Paso por el primer sensor (Medición de entrada):</b> La corriente positiva del panel no va directo al cargador, sino que atraviesa en serie la resistencia de derivación (shunt) del primer módulo INA219 entrando por VIN+ y saliendo por VIN-. Esta resistencia es de valor muy bajo (típicamente 0.1 Ω), lo que permite medir la corriente sin provocar una caída de tensión significativa antes de llegar al cargador.</p></li>
+<li><p><b>Gestión de carga y protección (TP4056):</b> La energía llega a los pines IN+ e IN- del TP4056. Este circuito integrado actúa como un cargador lineal de corriente constante / voltaje constante (CC/CV) diseñado específicamente para celdas de litio:</p>
+<div class="note"><p><b>Con radiación solar suficiente:</b> El TP4056 regula el voltaje hacia los pines B+ y B- para cargar la celda 18650 hasta un máximo seguro de 4.2 V, cortando la carga automáticamente cuando la batería está llena. Al mismo tiempo, deriva energía hacia las salidas OUT+ y OUT- para alimentar el resto del circuito.</p>
+<p><b>Sin radiación solar (noche o sombra):</b> El TP4056 evita que la corriente de la batería fluya en sentido inverso hacia el panel solar, y mantiene alimentadas las salidas OUT+ y OUT- utilizando la energía almacenada en la celda 18650. Además, su circuito de protección integrado desconecta la salida si el voltaje de la batería cae por debajo de un umbral crítico (aproximadamente 2.4V a 2.5 V) para evitar daños irreversibles en la celda.</p></div></li>
+<li><p><b>Paso por el segundo sensor (Medición de salida):</b> La corriente positiva que abandona el TP4056 por OUT+ atraviesa en serie el segundo módulo INA219 (de VIN+ a VIN-) antes de llegar al elevador de voltaje. Esto permite cuantificar exactamente cuánta potencia está demandando el sistema completo.</p></li>
+<li><p><b>Registro de tiempo y almacenamiento de datos:</b> También incorporamos un módulo DS1302, que funciona como un reloj de tiempo real y nos permite conocer la fecha y hora en la que se realizan las mediciones. Esto es importante porque podemos relacionar los datos eléctricos con diferentes momentos del día y observar cómo varía el consumo.</p></li>
+<li><p><b>Almacenamiento en microSD:</b> Además, utilizamos un módulo microSD, que permite almacenar las mediciones obtenidas durante el funcionamiento del sistema. De esta manera, los datos no solamente pueden visualizarse, sino también conservarse para analizarlos posteriormente y comparar el comportamiento energético en distintos ambientes y periodos de tiempo.</p></li>
+<li><p><b>Elevación y estabilización de voltaje (XL6009):</b> Dado que el voltaje de una batería 18650 varía entre 4.2 V (cargada) y 3.0 V (descargada), es insuficiente o inestable para alimentar directamente el regulador de entrada del ESP32. El módulo XL6009 recibe esta tensión variable en IN+ e IN- y, mediante conmutación de alta frecuencia (topología Boost), la eleva y estabiliza a un voltaje fijo (ajustado habitualmente a 5V) en sus terminales OUT+ y OUT-.</p></li>
+<li><p><b>Alimentación del microcontrolador:</b> La salida regulada del XL6009 ingresa al pin VIN (cable rojo) y GND (cable negro) del ESP32, donde su regulador interno LDO reduce esos 5 V a los 3.3V exactos que requiere el procesador para operar.</p></li>
+</ol>
+
+<h3 class="sub">4.2. Etapa de sensado y conversión (INA219)</h3>
+<p>Ambos módulos INA219 funcionan bajo el mismo principio físico, pero cumplen roles distintos dentro del balance energético del proyecto:</p>
+<ul class="bul">
+<li><b>Cálculo interno:</b> Cada sensor mide dos parámetros simultáneamente: la tensión de bus (voltaje respecto a tierra GND) y la tensión en la resistencia shunt (la micro-caída de voltaje entre VIN+ y VIN-). Mediante un conversor analógico-digital (ADC) interno de 12 bits y la Ley de Ohm (I = Vshunt / Rshunt), el chip calcula la corriente en amperios y multiplica ambos valores para obtener la potencia en vatios (P = V × I).</li>
+<li><b>Balance energético:</b> Al restar ambas lecturas en el código (Pneta = Pgen - Pcons), el sistema determina si la batería se está cargando (balance positivo), descargando (balance negativo) o en equilibrio.</li>
+</ul>
+
+<h3 class="sub">4.3. Etapa de control y bus de comunicación I2C</h3>
+<p>Una vez que el ESP32 recibe energía estable por VIN, asume el control lógico de la maqueta:</p>
+<ul class="bul">
+<li><b>Energización de la lógica de los sensores:</b> A diferencia de las líneas de potencia que miden (VIN+/VIN-), la electrónica interna de los INA219 se alimenta desde el pin de salida regulada de 3V (cable rojo) y GND (cable negro) del propio ESP32, asegurando niveles lógicos compatibles de 3.3 V en el bus de datos.</li>
+<li><b>Bus I2C compartido:</b> Ambos sensores están conectados en paralelo a los mismos dos pines del ESP32:
+<div class="note"><p><b>GPIO 21 (SDA - cable verde):</b> Línea bidireccional por donde viajan los paquetes de datos binarios con las lecturas de voltaje, corriente y potencia.</p>
+<p><b>GPIO 22 (SCL - cable amarillo):</b> Línea de reloj generada por el ESP32 para sincronizar el envío y recepción de bits con los sensores.</p></div></li>
+<li><b>Direccionamiento y ciclo de lectura:</b> Para evitar colisiones de datos al compartir los cables verde y amarillo, cada INA219 debe tener una dirección hexadecimal única (por ejemplo, 0x40 para el panel y 0x41 para la carga, configurada soldando los puentes A0/A1 en la placa del sensor). En cada ciclo de ejecución, el ESP32 envía una petición a la dirección 0x40, lee los registros de generación, luego consulta la dirección 0x41, lee los registros de consumo y procesa toda la información (ya sea para mostrarla por puerto serial, encender indicadores como el LED mencionado en el audio, o enviarla por Wi-Fi/Bluetooth).</li>
+</ul>
+<p>Para que la ESP32 pueda comunicarse con ambos sensores INA219, utilizamos el protocolo I2C, que permite transmitir la información mediante dos líneas de comunicación: SDA, encargada de los datos, y SCL, encargada de sincronizar la comunicación.</p>
+
+<h3 class="sub">4.4. Plataformas digitales y programación</h3>
+<p>Para complementar el funcionamiento de la maqueta, desarrollamos códigos de programación desde cero, los cuales permiten integrar los sensores, procesar las mediciones y organizar la información recopilada.</p>
+<p>Estos datos se conectan con plataformas digitales que nos permiten visualizar y analizar el consumo eléctrico en diferentes ambientes y durante distintos periodos de tiempo. Durante el desarrollo de la programación también contamos con el apoyo de agentes de inteligencia artificial, que nos ayudaron en la revisión, corrección y optimización de los códigos.</p>
+<p><b>Consultar gráficas de voltaje, corriente y potencia:</b></p>
+<a class="cta" href="https://dashboard-backend-teal.vercel.app/graficas.html">Ver gráficas del proyecto</a>
+
+<h3 class="sub">4.5. Sistema de señalización visual y sonora</h3>
+<ul class="bul">
+<li>La maqueta también cuenta con tres LED RGB, que funcionan como indicadores visuales y pueden representar diferentes estados del sistema dependiendo de la programación establecida.</li>
+<li>Por otra parte, incorporamos un buzzer, que permite generar señales sonoras cuando se cumplen determinadas condiciones programadas en la ESP32. De esta manera, combinamos la señalización visual y sonora para representar mecanismos de alerta y estados de funcionamiento.</li>
+</ul></div></section>
+
+<section><h2>5. Funcionamiento completo</h2><div class="body">
+<p><b>Así funciona todo en conjunto:</b></p>
+<p>La energía solar es captada por el panel, pasa por el primer sensor INA219, que mide la generación eléctrica, y llega al módulo TP4056, encargado de gestionar la carga de la batería. La energía disponible para alimentar el circuito pasa por el segundo INA219, que mide el consumo, y posteriormente por el XL6009, que regula y eleva el voltaje para alimentar la ESP32.</p>
+<p>La ESP32 recibe las mediciones de los sensores, consulta la hora mediante el DS1302, procesa los datos y permite almacenarlos en la microSD y visualizarlos mediante las plataformas digitales. Al mismo tiempo, controla los LED RGB y el buzzer, que funcionan como mecanismos de señalización visual y sonora.</p>
+<p>De esta manera, nuestra maqueta integra el aprovechamiento de energía solar, el almacenamiento energético, la medición eléctrica, la programación y la automatización, permitiéndonos demostrar de manera práctica algunos de los principios de la física electromagnética.</p>
+<p><b>Consultar gráficas de voltaje, corriente y potencia:</b></p>
+<a class="cta" href="https://dashboard-backend-teal.vercel.app/graficas.html">Ver gráficas del proyecto</a>
+</div></section>
+
+<section><h2>6. Conclusiones: resultados obtenidos y cumplimiento de los objetivos</h2><div class="body">
+<ul class="chk">
+<li>Se logró construir una maqueta funcional a escala de una cárcel que integra generación solar, almacenamiento, medición y control.</li>
+<li>Se implementó un sistema de alimentación estable, que protege la batería y garantiza energía continua, con y sin radiación solar.</li>
+<li>Se logró medir de forma simultánea la energía generada y la energía consumida, usando dos sensores INA219, lo que permitió analizar el balance energético del sistema.</li>
+<li>Se implementó un sistema de registro con fecha y hora, almacenamiento en microSD y visualización en plataformas digitales, que permite comparar el consumo en diferentes ambientes y periodos de tiempo.</li>
+<li>Se aplicaron en la práctica los principios de la física electromagnética: generación, transferencia, almacenamiento y medición de energía eléctrica.</li>
+<li>Se evaluó el funcionamiento general del prototipo a través de la medición, el almacenamiento de datos y la respuesta de los LED RGB y el buzzer como mecanismos de señalización.</li>
+<li>En conjunto, el proyecto cumplió su objetivo general y sus objetivos específicos, al demostrar que es posible integrar energías renovables, electrónica, programación y automatización en un prototipo funcional y didáctico.</li>
+</ul></div></section>
+</main>
+<div class="foot">Colegio Mayor del Cauca · Física Electromagnética · Popayán, Cauca</div>
+</body></html>
